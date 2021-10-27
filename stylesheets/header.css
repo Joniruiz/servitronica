@@ -1,0 +1,14 @@
+.llamenos{
+    background-color: var(--black);
+    color: white;
+    display: flex;
+    height: 3rem;
+    font-size: 0.7rem ;
+    justify-content: space-between;
+}
+header{
+ 
+}
+.burger a{
+    color: white;
+}
