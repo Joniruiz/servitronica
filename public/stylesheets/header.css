@@ -8,10 +8,12 @@
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 999;
-    
+    position: relative;
+    z-index: 20;
 }
 .llamenos span{
-    padding:35px;
+    padding:30px;
+    background-color: var(--black);
 }
 .llamenos a{
     margin-left: 10px;
@@ -30,10 +32,48 @@ text-align: center;
 }
 
 .navLogo img{
-    width: 60%;
+    width: 80%;
     padding: 0.9rem;
    
 }
 .navHeader{
     display: none;
+}
+
+.menuMobile{
+    width: 221px;
+    height: 396px;
+    background-color: var(--black);
+    position: absolute;
+    color: white;
+    right: 10px;
+    z-index: -1;
+    transition: all 0.5s;
+}
+.hidden{
+    top: -500px;
+}
+.deploy{
+    top:80px;
+}
+.menuMobile nav{
+    margin: 10%;
+}
+.menuMobile nav ul li a{
+    font-size: 20px;
+    font-weight: 999;
+}
+.menuMobile nav ul li {
+    margin-bottom: 15px;
+}
+.menuMobile img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: -1;
+}
+.mobileHr{
+    margin: 0 auto;
+    color: white;
+    width: 60%;
 }
