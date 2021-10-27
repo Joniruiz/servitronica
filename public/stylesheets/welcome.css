@@ -6,26 +6,20 @@
     text-align: center;
     flex-direction: column;
     width: 100%;
+    position: relative;
     
     
 }
-
-/* .welcome .h1s  h1{
-  font-size: 500px;
-} */
 .welcome .textos {
     padding-top: 60%;
-
+    z-index: 700;
 }
-
 .welcome .textos img{
     width: 100%;
 }
-
 .welcome .h1s{
     margin-top: 120px;
 }
-
 .welcome h1.noPadding{  
     width: 100%;
     height: 20%;
@@ -33,8 +27,7 @@
     font-family: 'Montserrat', sans-serif;
     -webkit-text-stroke: 0.3px rgb(255, 255, 255);
      color: transparent; 
-     margin: 0 auto;
-         
+     margin: 0 auto;        
 }
 .welcome .paddingH1 {
 
@@ -45,4 +38,27 @@
     
      color: white; 
      margin: 0 auto;
+}
+.welcome .btn-presupuesto a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:var(--orange);
+    
+    margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+   
+    
+}
+
+.btn-presupuesto{
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+    z-index: 800;
+   
 }
