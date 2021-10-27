@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,17 +16,18 @@
     <!-- Javascripts -->
     <script src="./public/javascripts/app.js"></script>
 </head>
+
 <body>
     <header>
         <div class="llamenos">
             <span>Llamenos hoy <a href="https://api.whatsapp.com/send?phone=541157412030">11-3526-4499</a></span>
-            
+
             <div class="hamburger hamburger--elastic">
                 <div class="hamburger-box">
-                  <div class="hamburger-inner"></div>
+                    <div class="hamburger-inner"></div>
                 </div>
             </div>
-            
+
         </div>
         <div class="menuMobile hidden">
             <nav>
@@ -49,7 +51,7 @@
         
     </div>
     </header>
-   <!--  <main>
+    <!--  <main>
         <div class="wppButton"></div>
         <section class="welcome">
             
@@ -72,34 +74,51 @@
             </div>
             <hr>
             <h4></h4>
-            <form action="">
-                <input type="text">
-                <input type="tel">
-                <input type="email">
-                <textarea name="" id="" cols="30" rows="10" ></textarea>
-                <button type="submit">ENVIAR</button>
-            </form>
-            </div>
-            <aside>
-
-            </aside>
-        </section>
-        <section class="address">
-            <img src="" alt="">
-            <h3></h3>
-            <h5></h5>
-            <div>
-                <i></i>
-                <p></p>
-                <a href="https://goo.gl/maps/wNQDg6vJcYeRgiRp7"></a>
-            </div>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6495514783037!2d-58.49781048429623!3d-34.638295380450586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9baf279886b%3A0xe3c331b74e04c0a3!2sCnel.%20Ram%C3%B3n%20L.%20Falc%C3%B3n%204858%2C%20C1407GTF%20CABA!5e0!3m2!1ses-419!2sar!4v1635345498974!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section> 
-    </main> -->
+         -->
+         <form method="POST" id="form">
+            ​
+                <input type="hidden" name="apikey" value="561f91ff-bbd9-4cf9-8003-c9db28ddcd42">
+                <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                <input type="checkbox" name="botcheck" id="" style="display: none;">
+            ​
+                <!-- Custom Form Data -->
+            <input id="name"  type="text" name="nombre" class="" placeholder="Nombre"><br>
+            <input id="tel" type="tel" name="telefono" class="" placeholder="Telefono"><br>
+            <input id="email" type="email"  name="email" class="" placeholder="Correo electrónico"><br>
+            <textarea id="msg" name="textarea" cols="30" rows="10"  style="resize:none"></textarea><br>
+            <button type="submit" id="btnSubmit" >ENVIAR</button>
+            ​
+                <div id="result"></div>
+            ​
+            </form> 
+    </div>
+    <aside>
+        <h2>PEDI TU PRESUPEUSTO</h2>
+        <p>Somos servicio tecnico Oficial de importantes marcas, brindamos la mejor atencion por profesionales.</p>
+        <p>Somos servicio tecnico Oficial de importantes marcas, brindamos la mejor atencion por profesionales.</p>
+        <p>Somos servicio tecnico Oficial de importantes marcas, brindamos la mejor atencion por profesionales.</p>
+        <img src="/public/images/Frame 4.png" alt="" srcset="">
+    </aside>
+    </section>
+    <section class="address">
+        <img src="" alt="">
+        <h3></h3>
+        <h5></h5>
+        <div>
+            <i></i>
+            <p></p>
+            <a href="https://goo.gl/maps/wNQDg6vJcYeRgiRp7"></a>
+        </div>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6495514783037!2d-58.49781048429623!3d-34.638295380450586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9baf279886b%3A0xe3c331b74e04c0a3!2sCnel.%20Ram%C3%B3n%20L.%20Falc%C3%B3n%204858%2C%20C1407GTF%20CABA!5e0!3m2!1ses-419!2sar!4v1635345498974!5m2!1ses-419!2sar"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
