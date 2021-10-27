@@ -67,3 +67,8 @@ overflow: visible; }
 .hamburger--elastic.is-active .hamburger-inner::after {
           transform: translate3d(0, -20px, 0) rotate(-270deg);
           transition-delay: 0.075s; }
+
+@media screen and (min-width: 768px){
+.hamburger {
+    display: none;
+}}
