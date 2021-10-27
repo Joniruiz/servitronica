@@ -13,11 +13,10 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     position: relative;
-    z-index: 20;
+    z-index: 3;
 }
 .llamenos span{
     padding:30px;
-    background-color: var(--black);
 }
 /*quito estilo de ancla, pongo blanco*/
 .llamenos a{
@@ -48,7 +47,7 @@ text-align: center;
     position: absolute;
     color: white;
     right: 10px;
-    z-index: -1;
+    z-index: 2;
     transition: all 0.5s;
 }
 .hidden{
@@ -61,8 +60,10 @@ text-align: center;
     margin: 10%;
 }
 .menuMobile nav ul li a{
+    font-family: 'Montserrat', sans-serif;;
     font-size: 20px;
     font-weight: 999;
+    color: white;
 }
 .menuMobile nav ul li {
     margin-bottom: 15px;
@@ -129,6 +130,9 @@ text-align: center;
     }
     .ulHeader li:hover{
         background-color: var(--orange);
+    }
+    .menuMobile{
+        display: none;
     }
 }
 
