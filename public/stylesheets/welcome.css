@@ -1,0 +1,48 @@
+.welcome {
+    height: 100%;
+    background-image: url('../images/Banner.jpg');
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+
+/* .welcome .h1s  h1{
+  font-size: 500px;
+} */
+.welcome .textos {
+    padding-top: 60%;
+
+}
+
+.welcome .textos img{
+    width: 100%;
+}
+
+.welcome .h1s{
+    margin-top: 120px;
+}
+
+.welcome h1.noPadding{  
+    width: 100%;
+    height: 20%;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
+     color: transparent; 
+     margin: 0 auto;
+         
+}
+.welcome .paddingH1 {
+
+    width: 100%;
+    
+    font-size: 1.9rem;
+    font-family: 'Montserrat', sans-serif;
+    
+     color: white; 
+     margin: 0 auto;
+}
