@@ -1,3 +1,7 @@
+header{
+    border-bottom: 10px solid var(--black);
+   }
+   /* navbar negra que dice llamenos y tiene numero de telefono*/
 .llamenos{
     background-color: var(--black);
     color: white;
@@ -13,17 +17,13 @@
 .llamenos span{
     padding:35px;
 }
+/*quito estilo de ancla, pongo blanco*/
 .llamenos a{
     margin-left: 10px;
     color: white;
     text-decoration: none;
 }
-header{
- border-bottom: 10px solid var(--black);
-}
-.burger a{
-    color: white;
-}
+/*sector que tiene solo logo en mobile, lo centro*/
 .navLogo{
 align-items: center;
 text-align: center;
@@ -34,6 +34,61 @@ text-align: center;
     padding: 0.9rem;
    
 }
+/*uls, no disponibles en mobile*/
 .navHeader{
     display: none;
 }
+.ulHeader li{
+    display: none;
+}
+
+/*Medias querys de tablet*/
+
+@media screen and (min-width: 768px){
+   /* el display none de la burger esta en el burgerStyle.css como query*/
+   header{
+       border-bottom: 4px solid var(--black);
+   }
+   .llamenos{
+       height: 3rem;
+   }
+    .navLogo{
+        padding: 10px;
+        justify-content: space-around;
+        display: flex;
+    }
+    .navLogo img{
+        width: 25%;
+        
+       
+    }
+    .ulHeader {
+        position: relative;
+        justify-content: space-between;
+        display: flex;
+        margin-bottom: 0;
+ 
+    }
+    .ulHeader ul{
+        position: absolute;
+        top: 30px;
+   
+    }
+    .ulHeader li{
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        list-style: none;
+        margin-left:10px;
+        margin-right: 25px;
+        font-size: 0.89rem;
+ 
+    }
+    .navLogo{
+        padding: 0;
+    }
+    .ulHeader li:hover{
+        background-color: var(--orange);
+    }
+}
+
