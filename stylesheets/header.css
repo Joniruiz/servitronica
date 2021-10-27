@@ -2,13 +2,38 @@
     background-color: var(--black);
     color: white;
     display: flex;
-    height: 3rem;
-    font-size: 0.7rem ;
-    justify-content: space-between;
+    height: 5rem;
+    font-size: 0.8rem ;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 999;
+    
+}
+.llamenos span{
+    padding:35px;
+}
+.llamenos a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
 }
 header{
- 
+ border-bottom: 10px solid var(--black);
 }
 .burger a{
     color: white;
+}
+.navLogo{
+align-items: center;
+text-align: center;
+}
+
+.navLogo img{
+    width: 60%;
+    padding: 0.9rem;
+   
+}
+.navHeader{
+    display: none;
 }
