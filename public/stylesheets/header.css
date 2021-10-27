@@ -16,7 +16,7 @@ header{
     z-index: 20;
 }
 .llamenos span{
-    padding:30px;
+
     background-color: var(--black);
 }
 /*quito estilo de ancla, pongo blanco*/
@@ -40,7 +40,7 @@ text-align: center;
 .navHeader{
     display: none;
 }
-
+/*Hamburger de mobile*/
 .menuMobile{
     width: 221px;
     height: 396px;
@@ -93,7 +93,7 @@ text-align: center;
        height: 3rem;
    }
     .navLogo{
-        padding: 10px;
+        
         justify-content: space-around;
         display: flex;
     }
@@ -103,10 +103,12 @@ text-align: center;
        
     }
     .ulHeader {
+        
         position: relative;
         justify-content: space-between;
         display: flex;
-        margin-bottom: 0;
+        margin-bottom: -15px;
+
  
     }
     .ulHeader ul{
@@ -115,6 +117,8 @@ text-align: center;
    
     }
     .ulHeader li{
+        padding:20px;
+        padding-bottom: 22px;
         display: block;
         font-family: 'Montserrat', sans-serif;
         font-weight: bolder;
@@ -122,13 +126,13 @@ text-align: center;
         margin-left:10px;
         margin-right: 25px;
         font-size: 0.89rem;
- 
+        height: 100%;
     }
-    .navLogo{
-        padding: 0;
-    }
+  
     .ulHeader li:hover{
         background-color: var(--orange);
+        border-top: 5px solid var(--black);
+        transition: 1.3s;
     }
 }
 
