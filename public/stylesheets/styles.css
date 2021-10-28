@@ -1,7 +1,7 @@
 @import url("header.css");
 @import url("burgerStyle.css");
 @import url('welcome.css');
-
+@import url('contact.css');
 
 
 
@@ -23,6 +23,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 ul{
     list-style: none;
@@ -30,3 +31,4 @@ ul{
 a{
     text-decoration: none;
 }
+
