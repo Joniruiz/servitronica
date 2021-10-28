@@ -1,0 +1,90 @@
+.welcome {
+    height: 100%;
+    background-image: url('../images/Banner.jpg');
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    
+    
+}
+.welcome .textos {
+    padding-top: 60%;
+    z-index: 1;
+}
+.welcome .textos img{
+    width: 100%;
+}
+.welcome .h1s{
+    margin-top: 120px;
+}
+
+.welcome .btn-presupuesto a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:var(--orange);
+    margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+   
+    
+}
+.btn-presupuesto{
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+    z-index: 1;
+   
+}
+
+.outline-top {
+    opacity: 30%;
+    margin-bottom: 20px;
+}
+
+.outline-bottom {
+    opacity: 30%;
+    
+}
+
+@media screen and (min-width: 768px){
+    .welcome .textos {
+        padding-top: 20%;
+    }
+    .welcome .textos img{
+        width: 100%;
+        height: px;
+    }
+    .welcome .h1b :nth-child(2){
+        display: none;
+    }
+    .welcome .btn-presupuesto a{
+      border: 1px solid white;
+    }
+    .btn-presupuesto{   
+    bottom: 10%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    }
+   
+   
+}
+
+@media screen and (min-width: 1024px){
+    .welcome .btn-presupuesto a{
+    padding: 20px 50px;
+    font-size: 18px;
+      }
+    
+    .btn-presupuesto{
+    margin-left: 30%;
+    margin-bottom: 15px;
+      }
+   
+}
