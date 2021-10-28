@@ -43,6 +43,17 @@
     z-index: 1;
    
 }
+
+.outline-top {
+    opacity: 30%;
+    margin-bottom: 20px;
+}
+
+.outline-bottom {
+    opacity: 30%;
+    
+}
+
 @media screen and (min-width: 768px){
     .welcome .textos {
         padding-top: 20%;
@@ -57,12 +68,13 @@
         display: none;
     }
     .welcome .btn-presupuesto a{
-      font-size: 40px;
+      
       margin-left: 40%;
       border: 1px solid white;
     }
     .btn-presupuesto{   
         bottom: 10%;
     }
+   
    
 }
