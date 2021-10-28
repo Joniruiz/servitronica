@@ -17,7 +17,7 @@
     padding: 5px;
     background-color: var(--grey);
     color: var(--black);
-    
+    border: 1px solid var(--black);
 }
 .contactForm input::placeholder {
     color: var(--black); 
@@ -33,7 +33,7 @@
     padding: 5px;
     background-color: var(--grey);
     color: var(--black);
-    
+    border: 1px solid var(--black);
 }
 .contactForm textarea::placeholder {
     color: var(--black); 
@@ -51,4 +51,32 @@
 
 .asideContact {
     display: none;
+}
+
+@media (min-width: 768px){
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .contactTitleOnMobile{
+        display: none;
+    }
+    .asideContact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    #contactSignature {
+        margin-left: 40%;
+    }
+    /* .contactLogo {
+        background-color: var(--black);
+        padding: 25px;
+        width: 102px;
+        height: 130px;
+        padding-top: 60px
+    } */
 }
