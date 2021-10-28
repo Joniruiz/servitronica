@@ -95,7 +95,7 @@ text-align: center;
        height: 3rem;
    }
     .navLogo{
-        
+        margin-top: 5px;
         justify-content: space-around;
         display: flex;
     }
@@ -105,36 +105,29 @@ text-align: center;
        
     }
     .ulHeader {
-        
-        position: relative;
-        justify-content: space-between;
-        display: flex;
-        margin-bottom: -15px;
-
- 
+     display: flex;
     }
     .ulHeader ul{
-        position: absolute;
-        top: 30px;
+
    
     }
     .ulHeader li{
-        padding:20px;
+        margin-left: 5px;
+        padding: 20px;
         padding-bottom: 22px;
         display: block;
         font-family: 'Montserrat', sans-serif;
         font-weight: bolder;
         list-style: none;
-        margin-left:10px;
-        margin-right: 25px;
         font-size: 0.89rem;
         height: 100%;
+        width: 100%;
     }
   
     .ulHeader li:hover{
         background-color: var(--orange);
-        border-top: 5px solid var(--black);
-        transition: 1.3s;
+        box-shadow: 5px  5px var(--black);
+        transition: all 1.3s;
     }
     .menuMobile{
         display: none;
