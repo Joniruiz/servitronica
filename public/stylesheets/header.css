@@ -105,14 +105,15 @@ text-align: center;
        
     }
     .ulHeader {
-     display: flex;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
     }
     .ulHeader ul{
 
    
     }
     .ulHeader li{
-        margin-left: 5px;
+        
         padding: 20px;
         padding-bottom: 22px;
         display: block;
