@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
     <!-- Styles -->
     <link rel="stylesheet" href="./public/stylesheets/styles.css">
@@ -82,35 +84,37 @@
         <section class="service">
             
         </section>
+    -->
         <section class="contact">
-            <div>
+            <div><!-- CONTACTO 2 VECES -->
                 <img src="" alt="">
                 <div>
                     <h2></h2>
                     <h3></h3>
                 </div>
                 <hr>
-                <h4></h4>
-            -->
-            <form method="POST" id="form">
+            </div>
+            <div class="contactForm">
+                <h2 class="contactTitleOnMobile">PEDI TU PRESUPUESTO</h2>
+                <form method="POST" id="form">
                 ​
-                <input type="hidden" name="apikey" value="561f91ff-bbd9-4cf9-8003-c9db28ddcd42">
+                <input type="hidden" name="apikey" value="2ce33f81-7ebb-4692-8f3f-b7c72732d02a">
                 <input type="hidden" name="subject" value="New Submission from Web3Forms">
                 <input type="checkbox" name="botcheck" id="" style="display: none;">
                 ​
                 <!-- Custom Form Data -->
-                <input id="name"  type="text" name="nombre" class="" placeholder="Nombre"><br>
-                <input id="tel" type="tel" name="telefono" class="" placeholder="Telefono"><br>
-                <input id="email" type="email"  name="email" class="" placeholder="Correo electrónico"><br>
-                <textarea id="msg" name="textarea" cols="30" rows="10"  style="resize:none"></textarea><br>
-                <button type="submit" id="btnSubmit" >ENVIAR</button>
-                ​
-                <div id="result"></div>
-                ​
+                <input id="name"  type="text" name="nombre" class="inputName" placeholder="Nombre">
+                <input id="tel" type="tel" name="telefono" class="" placeholder="Telefono">
+                <input id="email" type="email"  name="email" class="" placeholder="Correo electrónico">
+                <textarea id="msg" name="textarea" cols="30" rows="10"  style="resize:none" placeholder="Consulta"></textarea>
+                <button type="submit" id="btnSubmit" class="btnFormSubmit">ENVIAR</button>
             </form> 
-        </div>
-        <aside>
-            <h2>PEDI TU PRESUPEUSTO</h2>
+            <div id="result"9></div>   ​
+            </div>
+                ​
+        <aside class="asideContact">
+            <img src="" alt=""> <!-- iconito -->
+            <h2>PEDI TU PRESUPUESTO</h2>
             <p>Somos servicio tecnico Oficial de importantes marcas, brindamos la mejor atencion por profesionales.</p>
             <p>Somos servicio tecnico Oficial de importantes marcas, brindamos la mejor atencion por profesionales.</p>
             <p>Somos servicio tecnico Oficial de importantes marcas, brindamos la mejor atencion por profesionales.</p>
