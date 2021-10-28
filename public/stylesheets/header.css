@@ -107,10 +107,10 @@ text-align: center;
     .ulHeader {
      display: flex;
     }
-    .ulHeader ul{
+    /* .ulHeader ul{
 
    
-    }
+    } */
     .ulHeader li{
         margin-left: 5px;
         padding: 20px;
