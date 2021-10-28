@@ -1,0 +1,37 @@
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    height: 41px;
+    align-items: center;
+}
+footer img {
+    height: 20px;
+}
+footer span {
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    footer{
+        color: white;
+        height: 5rem;
+        font-size: 0.8rem ;
+        justify-content: space-around;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+    }
+    footer img {
+        height: 30px;
+    }
+    footer span {
+        display: inline-block;
+    }
+    footer span a{
+        color: white;
+    }
+    
+ }
+ 
