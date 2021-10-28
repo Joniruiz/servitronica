@@ -9,8 +9,8 @@
     flex-direction: column;
     gap: 15px;
     justify-content: center;
-    align-items: center;
-    }
+    align-items: center;   
+}
 
 .contactForm input {
     width: 80%;
@@ -56,8 +56,12 @@
 @media (min-width: 768px){
     .contact {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
         gap: 30px;
+    }
+    .desktopPrice{
+        font-size: 15px;
+
     }
     .contactTitleOnMobile{
         display: none;
@@ -66,17 +70,48 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         gap: 40px;
     }
     #contactSignature {
         margin-left: 40%;
     }
-    /* .contactLogo {
+    .btnFormSubmit{
+        color: var(--orange);
         background-color: var(--black);
-        padding: 25px;
-        width: 102px;
-        height: 130px;
-        padding-top: 60px
-    } */
+        border-radius: 8px;
+        padding: 15px;
+        font-weight: 800;
+        width: 80%;
+        box-shadow: 0px 4px var(--grey) ;
+        margin-top: 10px;
+    }
+    .contactForm textarea {
+        height: 220px;
+    }
+    .contactForm form{
+        gap: 30px;
+    }
+    .contactForm input {
+       height: 50px;
+    }
+    .sideServitronic{
+        -webkit-text-stroke: 1px var(--black);
+        transform: rotate(270deg);
+        color: transparent;
+        font-size: 60px;
+        position: relative;
+        left: 70%;
+        bottom: 190px;
+        display: none;
+    }
+    .contactLogo{
+        margin-right: 80%;
+        margin-top: 20px;
+    }
+    @media (min-width: 1920px){
+        .sideServitronic{
+            display: block;
+        }
+    }
 }
