@@ -60,7 +60,8 @@
         gap: 30px;
     }
     .desktopPrice{
-        align-self: flex-start;
+        font-size: 15px;
+
     }
     .contactTitleOnMobile{
         display: none;
@@ -101,7 +102,7 @@
         font-size: 60px;
         position: relative;
         left: 70%;
-        bottom: 170px;
+        bottom: 190px;
         display: none;
     }
     .contactLogo{
