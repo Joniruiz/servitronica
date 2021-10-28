@@ -37,7 +37,6 @@
 }
 .btn-presupuesto{
     position: absolute;
-    /* width: 100%; */
     bottom: 15%;
     z-index: 1;
    
