@@ -40,7 +40,7 @@
     position: absolute;
     width: 100%;
     bottom: 15%;
-    z-index: 800;
+    z-index: 1;
    
 }
 @media screen and (min-width: 768px){
