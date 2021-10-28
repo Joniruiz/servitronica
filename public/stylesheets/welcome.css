@@ -12,7 +12,7 @@
 }
 .welcome .textos {
     padding-top: 60%;
-    z-index: 700;
+    z-index: 1;
 }
 .welcome .textos img{
     width: 100%;
