@@ -53,7 +53,36 @@
     display: none;
 }
 
+.contactImg {
+    width: 100%;
+}
+.contactDesktopImg {
+    display: none;
+}
+/* .backContact {
+    z-index: 0;
+    -webkit-text-stroke: 1px var(--orange);
+    color: transparent;
+    font-size: 17vw;
+    text-align: center;
+}
+.frontContact {
+    z-index: -1;
+    text-align: center;
+    font-size: 10vw;
+    transform: translateY(95px);
+} */
 @media (min-width: 768px){
+    .contactImg {
+        display: none;
+    }
+    .contactDesktopImg {
+        display: block;
+        width: 100%;
+    }
+    .DesktopContactBg {
+        object-fit: fill;
+    }
     .contact {
         display: grid;
         grid-template-columns: 1fr 1fr ;
