@@ -21,7 +21,6 @@
     }
   }
   .slider {
-    /* background: pr; */
     height: 100px;
     margin: auto;
     overflow: hidden;
@@ -34,8 +33,9 @@
     height: 100px;
     position: absolute;
     width: 200px;
-    z-index: 2;
+    z-index: 1;
   }
+  
   .slider::after {
     right: 0;
     top: 0;
