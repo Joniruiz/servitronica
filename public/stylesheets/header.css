@@ -134,6 +134,7 @@ text-align: center;
         font-size: 0.89rem;
         width: 100%;
         border-bottom: 0px transparent solid;
+        cursor: pointer;
     }
   
     .ulHeader li:hover{
