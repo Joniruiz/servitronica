@@ -28,7 +28,7 @@
     width: 100%;
   }
   .slider::before, .slider::after {
-    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 50%);
     content: "";
     height: 100px;
     position: absolute;
@@ -55,4 +55,8 @@
   .slider .slide {
     height: 100px;
     width: 250px;
+  }
+
+  .slide {
+    margin: 10px;
   }
