@@ -21,7 +21,6 @@
     }
   }
   .slider {
-    /* background: pr; */
     height: 100px;
     margin: auto;
     overflow: hidden;
@@ -29,13 +28,14 @@
     width: 100%;
   }
   .slider::before, .slider::after {
-    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 50%);
     content: "";
     height: 100px;
     position: absolute;
     width: 200px;
-    z-index: 2;
+    z-index: 1;
   }
+  
   .slider::after {
     right: 0;
     top: 0;
@@ -55,4 +55,8 @@
   .slider .slide {
     height: 100px;
     width: 250px;
+  }
+
+  .slide {
+    margin: 10px 30px;
   }
