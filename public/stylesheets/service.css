@@ -72,9 +72,9 @@ strong{
       padding-top: 20%;
       padding-right: 25%;
   }
-  p.p-estamos{
+  /* p.p-estamos{
 
-  }
+  } */
      .service-desktop{
          height: 555px;
          display: flex;
@@ -85,7 +85,7 @@ strong{
      img#cocina-img{
          display: none;
      }
-     article#orange{
+     /* article#orange{
         
-     }
+     } */
 }

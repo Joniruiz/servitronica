@@ -7,12 +7,11 @@
     flex-direction: column;
     width: 100%;
     position: relative;
-    
-    
 }
 .welcome .textos {
     padding-top: 60%;
     z-index: 1;
+    margin-bottom: 2px;
 }
 .welcome .textos img{
     width: 100%;
@@ -22,12 +21,9 @@
 }
 
 .welcome .btn-presupuesto a{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 15px 30px;
     background-color:var(--orange);
-    margin:0 auto;
+    margin: 10px 0 10px 20vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     border-radius: 10px;
@@ -36,8 +32,11 @@
 
 .btn-presupuesto{
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .outline-top {
@@ -61,13 +60,13 @@
     padding: 3px 0;
 }
 
+
 @media screen and (min-width: 768px){
     .welcome .textos {
         padding-top: 20%;
     }
     .welcome .textos img{
         width: 100%;
-        height: px;
     }
     .welcome .h1b :nth-child(2){
         display: none;
