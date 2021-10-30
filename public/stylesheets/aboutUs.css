@@ -1,0 +1,94 @@
+.aboutUs h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.aboutUs h5{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.aboutUs p{
+    font-weight:300;
+    margin: 20px 20px 20px 20px;
+}
+
+
+@media screen and (min-width: 768px){
+    .aboutUs h2 {
+        color: transparent;
+        font-size: 13.7vw;
+        -webkit-text-stroke: 0.5px var(--orange);
+        margin-top: -24px;
+        margin-left: 3px;
+        z-index: 0;
+    }
+    .aboutUs h5{
+        z-index: 1;
+        transform: translateY(-70px);
+        margin-left: 80px;
+        font-size: 16px;
+    }
+    .aboutUs p{
+        font-weight:600;
+        margin: -60px 20px 20px 80px;
+        width: 400px; 
+  
+    }
+    
+}
+@media screen and (min-width: 1024px){
+    .aboutUs h5{
+        
+        transform: translateY(-77px);
+        margin-left: 120px;
+        
+    }
+    .aboutUs p{
+        font-weight:600;
+        margin-left:120px;
+        width: 400px; 
+  
+    }
+}
+@media screen and (min-width: 1440px){
+    .aboutUs h5{
+        font-size: 24px;
+        transform: translateY(-95px);
+        margin-left: 160px;
+        
+    }
+    .aboutUs p{
+        font-size: 20px;
+        font-weight:600;
+        margin-top: -83px;
+        margin-left:160px;
+        width: 400px; 
+  
+    }
+}
+@media screen and (min-width: 1920px){
+    .aboutUs h2 {
+        
+        -webkit-text-stroke: 1px var(--orange);
+      
+    }
+    .aboutUs h5{
+        font-size: 44px;
+        transform: translateY(-215px);
+        margin-left: 450px;
+        
+    }
+    .aboutUs p{
+        font-size: 40px;
+        font-weight:600;
+        margin-top: -130px;
+        margin-bottom: 100px;
+        margin-left:450px;
+        width: 700px; 
+  
+    }
+}
