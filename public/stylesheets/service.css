@@ -1,0 +1,91 @@
+.service{
+    align-items: center;
+    text-align: center;
+}
+.titu-service{
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 5px solid black;
+}
+h4.h-service{
+    border: 1px solid black;
+    width: fit-content ;
+}
+article.box-experience{
+    padding: 40px;
+}
+
+article.box-experience img{
+    width: 65px;
+    margin-bottom: 10px;
+}
+article#orange{
+    
+    background-color: var(--orange);
+}
+
+hr.hr-box{
+    width: 15px;
+    margin: 0 auto;
+    color: black;
+}
+h5.text-service{
+    margin: 10px 0 10px 0;
+}
+ img#cocina-img{
+     margin-top: 20px;
+    width: 100%;
+}
+p.sub-text-service{
+    font: 800;
+}
+article.estamos{
+    text-align: left;
+padding: 25px 55px 25px 55px;
+
+}
+p.p-estamos{
+    line-height: 35px;
+    font-size: 20px;
+}
+strong{
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px){
+     section.service{
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-image: url("/public/images/Frame\ 8.png");
+     }
+     .box-experience{
+         height: 185px;
+         width: 155%;
+     }
+  .titu-service{
+      display: none;
+  }
+  article.estamos{
+      margin-left: 15%;
+      padding-top: 20%;
+      padding-right: 25%;
+  }
+  p.p-estamos{
+
+  }
+     .service-desktop{
+         height: 555px;
+         display: flex;
+         background-color: var(--grey);
+         width: 80%;
+         padding-left: 4%;
+     }
+     img#cocina-img{
+         display: none;
+     }
+     article#orange{
+        
+     }
+}
