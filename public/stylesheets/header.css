@@ -1,6 +1,11 @@
-header{
+/* header{
     border-bottom: 10px solid var(--black);
-   }
+   } */
+   .headerHr{
+    background-color: black;
+    height: 12px;
+    border: none;
+}
    /* navbar negra que dice llamenos y tiene numero de telefono*/
 .llamenos{
     background-color: var(--black);
@@ -17,7 +22,6 @@ header{
     position: fixed;
     width: 100vw;
     margin-top: -5px;
-    
 }
 .llamenos span{
 
@@ -93,9 +97,9 @@ text-align: center;
 
 @media screen and (min-width: 768px){
    /* el display none de la burger esta en el burgerStyle.css como query*/
-   header{
+   /* header{
        border-bottom: 4px solid var(--black);
-   }
+   } */
    .llamenos{
     width: 100vw;
        height: 3rem;
@@ -114,31 +118,39 @@ text-align: center;
     .ulHeader {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
+     align-items: baseline;
     }
     /* .ulHeader ul{
 
    
     } */
     .ulHeader li{
-        
-        padding: 20px;
-        padding-bottom: 22px;
+        padding: 13px 15px 15px 15px;
+        overflow: hidden;
         display: block;
         font-family: 'Montserrat', sans-serif;
         font-weight: bolder;
         list-style: none;
         font-size: 0.89rem;
-        height: 100%;
         width: 100%;
+        border-bottom: 0px transparent solid;
     }
   
     .ulHeader li:hover{
+        border-bottom: 5px transparent solid;
+        border-top: 5px black solid;
         background-color: var(--orange);
-        box-shadow: 5px  5px var(--black);
-        transition: all 1.3s;
+        box-shadow: 0px  30px var(--orange);
+        transition: all 0.5s;
     }
     .menuMobile{
         display: none;
     }
+    .headerHr{
+        position: relative;
+        z-index: 2;
+        height: 5px;
+    }
+    
 }
 
