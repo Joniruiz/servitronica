@@ -23,7 +23,6 @@
 .welcome .btn-presupuesto a{
     padding: 15px 30px;
     background-color:var(--orange);
-    margin: 10px 0 10px 20vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     border-radius: 10px;
@@ -31,12 +30,11 @@
 }
 
 .btn-presupuesto{
-    position: absolute;
-    bottom: 10%;
-    z-index: 1;
     display: flex;
     justify-content: center;
-    
+    z-index: 1;
+    position: absolute;
+    margin: 89% 17%;
 }
 
 .outline-top {
@@ -60,6 +58,18 @@
     padding: 3px 0;
 }
 
+@media screen and (min-width: 411px){
+    .btn-presupuesto{
+        margin: 88% 20%;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .btn-presupuesto{
+        margin: 88% 25%;
+    }
+}
+
 
 @media screen and (min-width: 768px){
     .welcome .textos {
@@ -72,21 +82,49 @@
         display: none;
     }
     .welcome .btn-presupuesto a{
-      border: 1px solid white;
+        border: 1px solid white;
+        padding: 17px 40px;
+        font-size: 15px;
+        border-radius: 10px;
+        color: white;
+    
     }
-    .btn-presupuesto{   
-    bottom: 10%;
-    margin-left: 30%;
-    margin-bottom: 20px;
-    }
-
     .brands-title{
         font-size: 15px;
+    }
+    .btn-presupuesto{
+        margin: 45% 0% 0% 60%;
     }
    
    
 }
 
 @media screen and (min-width: 1280px){
+    .welcome .btn-presupuesto a{
+        border: 1px solid white;
+        padding: 25px 80px;
+        font-size: 18px;
+        border-radius: 10px;
+        color: white;
+    
+    }
+    .btn-presupuesto{
+        margin: 44% 0% 0% 63%;
+    }
+   
+}
+
+@media screen and (min-width: 1920px){
+    .welcome .btn-presupuesto a{
+        border: 1px solid white;
+        padding: 30px 90px;
+        font-size: 25px;
+        border-radius: 10px;
+        color: white;
+    
+    }
+    .btn-presupuesto{
+        margin: 43% 0% 0% 68%;
+    }
    
 }
