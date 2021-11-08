@@ -20,8 +20,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./public/stylesheets/styles.css">
     <!-- Javascripts -->
-    <script src="./public/javascripts/app.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="/public/javascripts/app.js"></script>
 </head>
 
 <body>
@@ -39,9 +38,9 @@
         <div class="menuMobile hidden">
             <nav>
                 <ul>
-                    <li><a href="#">NOSOTROS</a></li>
-                    <li><a href="#">SERVICIOS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="#servicios">SERVICIOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
             <hr class="mobileHr">
@@ -51,9 +50,9 @@
         <img src="./public/images/logo.svg" alt="logoServitronic">
         
             <ul class="ulHeader">
-                <li>NOSOTROS</li>
-                <li>SERVICIOS</li>
-                <li>CONTACTO</li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         
     </div>
@@ -84,7 +83,7 @@
         </section>
 
          
-        <section class="aboutUs">
+        <section class="aboutUs" id="nosotros">
             <h2>SERVITRONIC</h2>
             <h5>GARANTÍA DE CONFIANZA</h5>
             <p>Somos servicio técnico oficial de importantes marcas, brindamos la mejor atención por profesionales</p>
@@ -200,7 +199,7 @@
             </div>
         </div>
     </div>
-    <section class="contact">
+    <section class="contact" id="contacto">
         <div class="contactForm">
                 <h2 class="contactTitleOnMobile">PEDÍ TU PRESUPUESTO</h2>
                 <form method="POST" id="form">
@@ -262,7 +261,7 @@
     </section>
 </main>
 <footer>
-    <a href="#top"><img src="./public/images/GrouplogoWhitesvg.svg" alt="Servitronic footer"></a>
+    <a href="#top"><img src="/public/images/Group 6991whiteServitronic.svg" alt="Servitronic footer"></a>
     <span>Llámenos hoy <a href="https://api.whatsapp.com/send?phone=541157412030">11-3526-4499</a></span>
 </footer>
 
