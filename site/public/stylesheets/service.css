@@ -102,7 +102,7 @@ hr.hrBox{
     }
     .imagenLogo{
         position: relative;
-        background-image: url(/site/public/images/bordeimg.png);
+        background-image: url(./public/images/bordeimg.png);
         background-position: center;
         background-size: cover;
         width: 20%;
