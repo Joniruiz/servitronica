@@ -92,6 +92,9 @@ text-align: center;
 .ulHeader li{
     display: none;
 }
+.ulHeader li a{
+    color: var(--black);
+}
 
 /*Medias querys de tablet*/
 

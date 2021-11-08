@@ -1,0 +1,126 @@
+section.service{
+    align-items: center;
+    text-align: center;
+}
+.hrDesktop{
+    display: none;
+}
+.imgDesktop{
+    display: none;
+}
+.servicios{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.titulo-service{
+    border: 1px black solid;
+    width: fit-content;
+}
+.boxes-informacion{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+img.imgBox{
+    margin-bottom: 10px;
+}
+hr.hrBox{
+    width: 20px;
+     margin: 0 auto;
+    border-color: black;
+}
+.boxInfo{
+    align-items: center;
+    text-align: center;
+    background-color: var(--orange);
+    padding: 18px;
+    margin-bottom: 5px;
+}
+.titleBox{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#greyBox{
+    background-color: var(--white);
+}
+.estamosText{
+    text-align: left;
+}
+.estamos{
+    padding: 45px;
+    line-height: 29px;
+}
+
+@media screen and (min-width: 768px){
+    section.service{
+        background-color: var(--grey);
+        padding-left: 7%;
+    }
+    .titulo-service{
+        display: none;
+    }
+    .imgMobile{
+        display: none;
+    }
+    .grid-box{
+        display: flex;
+
+    }
+    .imgDesktop{
+        display: block;
+        width: 100%;
+        height:100%;
+    }
+    .stickyLogo{
+        
+        position: absolute;
+        display: flex;
+        background-color: black;
+        width: fit-content;
+        padding: 65px 15px 8px 15px;
+
+    }
+    .stickyLogo img{
+        width: 35px;
+    }
+    .estamos{
+        font-size: 28px;
+        line-height: 37px;
+        padding: 12
+    px
+    ;
+    }
+    .estamosText{
+       width: 45%;
+       font-size: 57px;
+       line-height: 0;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+    }
+    .imagenLogo{
+        position: relative;
+        background-image: url(/public/images/bordeimg.png);
+        background-position: center;
+        background-size: cover;
+        width: 20%;
+        margin-top: -10px;
+    }
+    .boxInfo{
+        max-width: 545px;
+        margin-top: -8px;
+    }
+    .hrDesktop{
+        display: flex;
+        justify-content: flex-end;
+       margin-top: 67px;
+        border-color: var(--black);
+        
+    }
+  #animation.animation{
+      margin-top: -10px;
+  }
+}
+@media screen and (min-width: 1020px){
