@@ -5,6 +5,9 @@
 .address{
     margin-top: -5px;
 }
+.btn-adress{
+    display: none;
+}
 
 .address-asside{
     -webkit-text-stroke: 1px var(--black);    
@@ -18,10 +21,30 @@
     text-transform: uppercase;
     z-index: 0;
     transform: translateY(-13px);
+    margin-top: 13px;
     margin-left: 45px;
 }
 
 .address p{
   margin: 0 44px 10px;
 
+}
+.address-img{
+    width:100%
+}
+
+@media screen and (min-width: 1280px){
+    .address-img{
+        display:none
+    }
+    .address-asside{
+        display:none
+    }
+   .address-font{
+        background-color:#C4C4C4
+    }
+    .address-section{
+        background-color: white;
+    }
+   
 }
