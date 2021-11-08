@@ -122,9 +122,7 @@ hr.hrBox{
   #animation.animation{
       margin-top: -10px;
   }
-  .boxes-informacion{
-    height: 100%;
-}
+
 .boxInfo{
     align-items: center;
     text-align: center;
@@ -132,7 +130,6 @@ hr.hrBox{
     height: 100%;
    
 }
-
 .textBox{
     margin-bottom: 12%;
 }
@@ -140,6 +137,10 @@ hr.hrBox{
     display: flex;
     justify-content: center;
     margin-bottom: 0;
+}
+#greyBox{
+    margin: 0;
+    padding: 18px;
 }
 }
 @media screen and (min-width: 1020px){}
