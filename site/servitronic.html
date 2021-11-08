@@ -20,7 +20,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./public/stylesheets/styles.css">
     <!-- Javascripts -->
-    <script src="./public/javascripts/app.js"></script>
+    <script src="/public/javascripts/app.js"></script>
 </head>
 
 <body>
@@ -38,9 +38,9 @@
         <div class="menuMobile hidden">
             <nav>
                 <ul>
-                    <li><a href="#">NOSOTROS</a></li>
-                    <li><a href="#">SERVICIOS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="#servicios">SERVICIOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
             <hr class="mobileHr">
@@ -50,9 +50,9 @@
         <img src="./public/images/logo.svg" alt="logoServitronic">
         
             <ul class="ulHeader">
-                <li>NOSOTROS</li>
-                <li>SERVICIOS</li>
-                <li>CONTACTO</li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         
     </div>
@@ -83,7 +83,7 @@
         </section>
 
          
-        <section class="aboutUs">
+        <section class="aboutUs" id="nosotros">
             <h2>SERVITRONIC</h2>
             <h5>GARANTÍA DE CONFIANZA</h5>
             <p>Somos servicio técnico oficial de importantes marcas, brindamos la mejor atención por profesionales</p>
@@ -140,38 +140,52 @@
             </div>
             
        
-             <section class="service">
-            <div class="titu-service">
-               <h4 class="h-service">SERVICIOS</h4>
+       <section class="service">
+           <div class="servicios">
+           <h4 class="titulo-service">SERVICIOS</h4>
+           </div>
+           <div class="grid-box">
+                 <div class="boxes-informacion">
+                     <article class="boxInfo">
+                        <img class="imgBox" src="/public/images/staf.png" alt="staff">
+                        <hr class="hrBox">
+                        <h2 class="titleBox"> STAFF EXPERIMENTADO </h2>
+                        <p class="textBox">
+                            Todos nuestros técnicos están experimentados, para brindarles confianza en nuestras soluciones
+                        </p>     
+                        <hr class="hrDesktop">    
+                     </article>
+                     <article id="greyBox" class="boxInfo">
+                        <img class="imgBox" src="/public/images/calidad.png" alt="calidad">
+                        <hr class="hrBox">
+                        <h3 class="titleBox"> CALIDAD, MEJOR CONFIANZA </h3>
+                        <p class="textBox">
+                            Solicite una visita o llámenos para contarnos sobre el servicio técnico que necesita y lo asesoraremos con todo gusto.
+                        </p>    
+                        <hr class="hrDesktop">
+                     </article>
+                     <article  class="boxInfo">
+                        <img class="imgBox" src="/public/images/repuestos.png" alt="repuesto">
+                        <hr class="hrBox">
+                        <h3 class="titleBox"> REPUESTOS </h3>
+                        <p class="textBox">
+                            Contamos con las herramientas y equipamiento suficiente para poder llevar adelante la reparación.
+                        </p>    
+                        <hr class="hrDesktop">
+                     </article>
+                 </div>
+                 <div class="estamosText">
+                    
+                 <p class="estamos">“<strong> Estamos a su lado </strong>para resolver los inconvenientes que electromesticos y equipamientos del hogar puedan presentar y nos alegra llevarles soluciones a estos problemas cotidianos”</p>
+                 <img class="imgMobile" src="/public/images/Frame 8.png" alt="" width="100%">
+                </div>
+                <div class="imagenLogo">
+                    <div class="stickyLogo">
+                        <img src="/public/images/Group7031LogoMobile.png" alt="">
+                    </div>
+                <!-- img class="imgDesktop" src="/public/images/bordeimg.png" alt=""> -->
             </div>
-            <div class="service-desktop">
-                <div class="articles-desktop">
-           <article id="orange" class="box-experience">
-            <img src="/public/images/experiencia.png" alt="">
-            <hr class="hr-box">
-            <h5 class="text-service"> STAFF EXPERIMENTADO </h5>
-            <p class="sub-text-service">Somos servicio técnico oficial de importantes marcas, brindamos la mejor atención por profesionales.</p>
-           </article>
-           <article class="box-experience">
-               <img src="/public/images/experiencia.png" alt="">
-               <hr class="hr-box">
-               <h5 class="text-service"> CALIDAD, MEJOR CONFIANZA</h5>
-               <p class="sub-text-service">Somos servicio técnico oficial de importantes marcas, brindamos la mejor atención por profesionales.</p>
-              </article>
-              <article id="orange" class="box-experience">
-               <img src="/public/images/experiencia.png" alt="">
-               <hr class="hr-box">
-               <h5 class="text-service"> STAFF EXPERIMENTADO </h5>
-               <p class="sub-text-service">Somos servicio técnico oficial de importantes marcas, brindamos la mejor atención por profesionales.</p>
-              </article>
             </div>
-              <article class="estamos">
-                <p class="p-estamos">“ <strong>Estamos a su lado</strong> 
-                   para resolver los inconvenientes que electrodomésticos y equipamientos del hogar puedan presentar y nos alegra llevarles soluciones a estos problemas cotidianos”</p>
-                             
-               </article>
-            </div>
-               <img id="cocina-img" src="/public/images/Frame 8.png" alt="">   
 
        </section>
         
@@ -185,7 +199,7 @@
             </div>
         </div>
     </div>
-    <section class="contact">
+    <section class="contact" id="contacto">
         <div class="contactForm">
                 <h2 class="contactTitleOnMobile">PEDÍ TU PRESUPUESTO</h2>
                 <form method="POST" id="form">
@@ -251,7 +265,7 @@
     </section>
 </main>
 <footer>
-    <a href="#top"><img src="./public/images/GrouplogoWhitesvg.svg" alt="Servitronic footer"></a>
+    <a href="#top"><img src="/public/images/Group 6991whiteServitronic.svg" alt="Servitronic footer"></a>
     <span>Llámenos hoy <a href="https://api.whatsapp.com/send?phone=541157412030">11-3526-4499</a></span>
 </footer>
 
