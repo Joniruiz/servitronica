@@ -111,6 +111,7 @@ hr.hrBox{
     .boxInfo{
         max-width: 545px;
         margin-top: -8px;
+        margin-bottom: 0;
     }
     .hrDesktop{
         display: flex;
