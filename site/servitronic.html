@@ -20,7 +20,8 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./public/stylesheets/styles.css">
     <!-- Javascripts -->
-    <script src="/public/javascripts/app.js"></script>
+    <script src="/public/javascripts/app.js" defer></script>
+    <script src="/public/javascripts/form.js" defer></script>
 </head>
 
 <body>
@@ -63,15 +64,15 @@
         <section class="welcome">
             <div class="textos">
                 <div class="h1a">
-                    <img class="outline-top" src="/public/images/BIENVENIDOS1.svg" alt="">
-                    <img src="/public/images/BIENVENIDOS2.svg" alt="">
+                    <img class="outline-top" src="./public/images/BIENVENIDOS1.svg" alt="">
+                    <img src="./public/images/BIENVENIDOS2.svg" alt="">
                     <br>
                     <br>
                 </div>                
                 <div class="h1b">
                     
-                    <img class="outline-bottom" src="/public/images/BIENVENIDOS1.svg" alt="">
-                    <img src="/public/images/BIENVENIDOS2.svg" alt="">
+                    <img class="outline-bottom" src="./public/images/BIENVENIDOS1.svg" alt="">
+                    <img src="./public/images/BIENVENIDOS2.svg" alt="">
                 </div>
                
             </div>
@@ -147,7 +148,7 @@
            <div class="grid-box">
                  <div class="boxes-informacion">
                      <article class="boxInfo">
-                        <img class="imgBox" src="/public/images/staf.png" alt="staff">
+                        <img class="imgBox" src="./public/images/staf.png" alt="staff">
                         <hr class="hrBox">
                         <h2 class="titleBox"> STAFF EXPERIMENTADO </h2>
                         <p class="textBox">
@@ -156,7 +157,7 @@
                         <hr class="hrDesktop">    
                      </article>
                      <article id="greyBox" class="boxInfo">
-                        <img class="imgBox" src="/public/images/calidad.png" alt="calidad">
+                        <img class="imgBox" src="./public/images/calidad.png" alt="calidad">
                         <hr class="hrBox">
                         <h3 class="titleBox"> CALIDAD, MEJOR CONFIANZA </h3>
                         <p class="textBox">
@@ -165,7 +166,7 @@
                         <hr class="hrDesktop">
                      </article>
                      <article  class="boxInfo">
-                        <img class="imgBox" src="/public/images/repuestos.png" alt="repuesto">
+                        <img class="imgBox" src="./public/images/repuestos.png" alt="repuesto">
                         <hr class="hrBox">
                         <h3 class="titleBox"> REPUESTOS </h3>
                         <p class="textBox">
@@ -177,13 +178,13 @@
                  <div class="estamosText">
                     
                  <p class="estamos">“<strong> Estamos a su lado </strong>para resolver los inconvenientes que electromesticos y equipamientos del hogar puedan presentar y nos alegra llevarles soluciones a estos problemas cotidianos”</p>
-                 <img class="imgMobile" src="/public/images/Frame 8.png" alt="" width="100%">
+                 <img class="imgMobile" src="./public/images/Frame 8.png" alt="" width="100%">
                 </div>
                 <div class="imagenLogo">
                     <div class="stickyLogo">
-                        <img src="/public/images/Group7031LogoMobile.png" alt="">
+                        <img src="./public/images/Group7031LogoMobile.png" alt="">
                     </div>
-                <!-- img class="imgDesktop" src="/public/images/bordeimg.png" alt=""> -->
+                 <img class="imgDesktop" src="./public/images/bordeimg.png" alt=""> 
             </div>
             </div>
 
@@ -213,15 +214,19 @@
                     <input id="email" type="email"  name="email" class="" placeholder="Correo electrónico">
                     <textarea id="msg" name="textarea" cols="30" rows="10"  style="resize:none" placeholder="Consulta"></textarea>
                     <button type="submit" id="btnSubmit" class="btnFormSubmit">ENVIAR</button>
-                    <div id="result"9></div>   ​
+                    <div id="result"></div>   ​
             </form> 
         </div>
         <aside class="asideContact">
             <div class="contactLogo"><img src="./public/images/blackIcon.png" alt=""></div>
             <h2 class="desktopPrice">PEDÍ TU PRESUPUESTO</h2>
-            <p>Somos servicio técnico oficial de importantes marcas, brindamos la mejor atención por profesionales.</p>
-            <p>Somos servicio técnico oficial de importantes marcas, brindamos la mejor atención por profesionales.</p>
-            <p>Somos servicio técnico oficial de importantes marcas, brindamos la mejor atención por profesionales.</p>
+            <p>Envianos tu consulta, detallando: la marca, que incoveniente tiene y ubicacion,</p>
+            <p> o comunicate al 112704-3091.</p>
+            <hr class="hrContact">
+            <p style="font-weight: bold;">La revision del equipo tiene un costo de $800 que incluye la visita.</p>
+            <hr class="hrContact">
+            <p>En el caso que acepten el presupuesto y se realize ahi mismo el trabajo</p>
+            <p>no se cobra visita, te estamos esperando.</p>
             <img src="/public/images/Frame 4.png" alt="" srcset="" id="contactSignature" >
             <h2 class="sideServitronic">SERVITRONIC</h2>
         </aside>
