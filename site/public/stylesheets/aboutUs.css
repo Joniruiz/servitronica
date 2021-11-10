@@ -20,7 +20,7 @@
 @media screen and (min-width: 768px){
     .aboutUs h2 {
         color: transparent;
-        font-size: 13.7vw;
+        font-size: 11.5vw;
         -webkit-text-stroke: 0.5px var(--orange);
         margin-top: -24px;
         margin-left: 3px;

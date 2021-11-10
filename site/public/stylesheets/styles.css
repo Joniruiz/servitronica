@@ -38,3 +38,8 @@ a{
     text-decoration: none;
 }
 
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}

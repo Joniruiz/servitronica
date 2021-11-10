@@ -35,6 +35,7 @@
 }
 /*sector que tiene solo logo en mobile, lo centro*/
 .navLogo{
+  
 padding-top: 80px;
 align-items: center;
 text-align: center;
@@ -108,6 +109,8 @@ text-align: center;
        height: 3rem;
    }
     .navLogo{
+        max-width: 1440px;
+        margin: 0 auto;
         padding-top: 40px;
         margin-top: 5px;
         justify-content: space-around;
