@@ -18,8 +18,8 @@ section.service{
     width: fit-content;
 }
 .boxes-informacion{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 img.imgBox{
     margin-bottom: 10px;
@@ -34,7 +34,6 @@ hr.hrBox{
     text-align: center;
     background-color: var(--orange);
     padding: 18px;
-    margin-bottom: 5px;
 }
 .titleBox{
     font-size: 15px;
@@ -56,6 +55,7 @@ hr.hrBox{
     section.service{
         background-color: var(--grey);
         padding-left: 7%;
+        margin-top: 0;
     }
     .titulo-service{
         display: none;
@@ -63,8 +63,9 @@ hr.hrBox{
     .imgMobile{
         display: none;
     }
-    .grid-box{
+    .to-box{
         display: flex;
+        height: 100%;
 
     }
     .imgDesktop{
@@ -87,9 +88,7 @@ hr.hrBox{
     .estamos{
         font-size: 28px;
         line-height: 37px;
-        padding: 12
-    px
-    ;
+        padding: 12px;
     }
     .estamosText{
        width: 45%;
@@ -102,25 +101,47 @@ hr.hrBox{
     }
     .imagenLogo{
         position: relative;
-        background-image: url(/public/images/bordeimg.png);
+        background-image: url(/site/public/images/bordeimg.png);
         background-position: center;
         background-size: cover;
         width: 20%;
-        margin-top: -10px;
+        /* margin-top: -10px; */
     }
-    .boxInfo{
-        max-width: 545px;
-        margin-top: -8px;
-    }
+   /*  .boxInfo{
+        max-width: 90%;
+        
+    } */
     .hrDesktop{
-        display: flex;
-        justify-content: flex-end;
-       margin-top: 67px;
+        display: block;
+        /* justify-content: flex-end; */
+       /* margin-top: 67px; */
         border-color: var(--black);
         
     }
   #animation.animation{
       margin-top: -10px;
   }
+
+.boxInfo{
+    align-items: center;
+    text-align: center;
+    background-color: var(--orange);
+    height: 100%;
+    width: 80%;
 }
-@media screen and (min-width: 1020px){
+.textBox{
+    max-width: 65%;
+    margin: 0 auto;
+    margin-bottom: 12%;
+}
+.servicios{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+#greyBox{
+    margin: 0;
+    padding: 18px;
+}
+}
+@media screen and (min-width: 1020px){}

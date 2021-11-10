@@ -60,3 +60,11 @@
   .slide {
     margin: 10px 30px;
   }
+  @media (prefers-color-scheme: dark) {
+    .slider::before, .slider::after  {
+      background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 50%);
+        
+    }
+  
+    
+}

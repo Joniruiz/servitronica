@@ -20,7 +20,7 @@
 @media screen and (min-width: 768px){
     .aboutUs h2 {
         color: transparent;
-        font-size: 13.7vw;
+        font-size: 10.8vw;
         -webkit-text-stroke: 0.5px var(--orange);
         margin-top: -24px;
         margin-left: 3px;
@@ -40,7 +40,7 @@
     }
     
 }
-@media screen and (min-width: 1024px){
+/* @media screen and (min-width: 1024px){
     .aboutUs h5{
         
         transform: translateY(-77px);
@@ -53,8 +53,8 @@
         width: 400px; 
   
     }
-}
-@media screen and (min-width: 1440px){
+} */
+/* @media screen and (min-width: 1440px){
     .aboutUs h5{
         font-size: 24px;
         transform: translateY(-95px);
@@ -90,5 +90,5 @@
         margin-left:450px;
         width: 700px; 
   
-    }
+    } */
 }
