@@ -18,8 +18,8 @@ section.service{
     width: fit-content;
 }
 .boxes-informacion{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 img.imgBox{
     margin-bottom: 10px;
@@ -34,7 +34,6 @@ hr.hrBox{
     text-align: center;
     background-color: var(--orange);
     padding: 18px;
-    margin-bottom: 5px;
 }
 .titleBox{
     font-size: 15px;
@@ -64,7 +63,7 @@ hr.hrBox{
     .imgMobile{
         display: none;
     }
-    .grid-box{
+    .to-box{
         display: flex;
         height: 100%;
 
@@ -108,10 +107,10 @@ hr.hrBox{
         width: 20%;
         /* margin-top: -10px; */
     }
-    .boxInfo{
+   /*  .boxInfo{
         max-width: 90%;
         
-    }
+    } */
     .hrDesktop{
         display: block;
         /* justify-content: flex-end; */
@@ -128,9 +127,11 @@ hr.hrBox{
     text-align: center;
     background-color: var(--orange);
     height: 100%;
-   
+    width: 80%;
 }
 .textBox{
+    max-width: 65%;
+    margin: 0 auto;
     margin-bottom: 12%;
 }
 .servicios{
