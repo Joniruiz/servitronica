@@ -3,6 +3,7 @@ window.addEventListener("load",() => {
     let menuMobile = document.querySelector(".menuMobile")
      
     hamburger.addEventListener("click", function() {
+        console.log("fiumba");
         hamburger.classList.toggle("is-active");
         menuMobile.classList.toggle("hidden");
         menuMobile.classList.toggle("deploy");

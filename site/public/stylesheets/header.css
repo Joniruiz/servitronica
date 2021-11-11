@@ -148,7 +148,7 @@ text-align: center;
         border-top: 5px black solid;
         background-color: var(--orange);
         box-shadow: 0px  30px var(--orange);
-        transition: all 0.5s;
+        transition: all 0.2s;
     }
     .menuMobile{
         display: none;
