@@ -156,7 +156,6 @@ height: 10%;
 width: 100%;
 display: flex;
 align-items: center;
-z-index: 3;
 }
 
 span.textoNegrita{
