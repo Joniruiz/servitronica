@@ -95,6 +95,7 @@ text-align: center;
 }
 .ulHeader li a{
     color: var(--black);
+    font-size: 24px;
 }
 
 /*Medias querys de tablet*/
