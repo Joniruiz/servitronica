@@ -118,16 +118,19 @@ hr.hrBox{
         border-color: var(--black);
         
     }
-  #animation.animation{
-      margin-top: -10px;
-  }
+ 
+  .boxes-informacion {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
 
 .boxInfo{
     align-items: center;
     text-align: center;
     background-color: var(--orange);
     height: 100%;
-    width: 80%;
+   
 }
 .textBox{
     max-width: 65%;
