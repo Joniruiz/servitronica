@@ -15,10 +15,11 @@ section.service{
     position: relative;
 }
 .titulo-service{
+    font-size: 25px;
     position: absolute;
-    background-image: url(/site/public/images/SERVICIOS.png);
+   
     border: 1px black solid;
-    top: 30%;
+    top: 16%;
 }
 .boxes-informacion{
     display: flex;
