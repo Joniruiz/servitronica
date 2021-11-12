@@ -40,7 +40,12 @@
     padding:0px 10px
 
 }
+marquee{display:none}
+
 @media screen and (min-width: 768px){
+    marquee{
+        display: flex
+    }
     .DesktopContactBg{
         display:flex;
         background-color: #C4C4C4;      
