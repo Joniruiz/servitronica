@@ -74,6 +74,9 @@
     .address-img{
         display:none
     }
+    .address-text{
+        height:75px
+    }
 }
 
 
