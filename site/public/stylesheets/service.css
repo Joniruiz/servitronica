@@ -12,10 +12,12 @@ section.service{
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    position: relative;
 }
 .titulo-service{
+    position: absolute;
+    background-image: url(/site/public/images/SERVICIOS.png);
     border: 1px black solid;
-    width: fit-content;
 }
 .boxes-informacion{
     display: flex;
@@ -51,12 +53,6 @@ hr.hrBox{
     line-height: 36px;
     font-size: 28px;
 }
-span.textoNegrita{
-    display: inline-block;
-    margin-left: 0;
-    font-weight: bold;
-}
-
 
 @media screen and (min-width: 768px){
     section.service{
@@ -149,10 +145,12 @@ span.textoNegrita{
     margin-bottom: 12%;
 }
 .servicios{
+    
     display: flex;
     justify-content: center;
     margin-bottom: 0;
 }
+#greyB
 #greyBox{
     margin: 0;
     padding: 18px;
@@ -171,7 +169,9 @@ span.textoNegrita{
     margin-left: 0;
     font-weight: bold;
 }
-
+.serviciosImg{
+display: none;
+}
 @media screen and (min-width: 1020px){
     .estamos{
         font-size: 1.9rem;
