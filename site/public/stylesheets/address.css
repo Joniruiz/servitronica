@@ -77,6 +77,9 @@
     .address-text{
         height:75px
     }
+    .address-container-desk{
+        transform: translate(5%, 26%)
+    }
 }
 
 
