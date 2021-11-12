@@ -18,6 +18,7 @@ section.service{
     position: absolute;
     background-image: url(/site/public/images/SERVICIOS.png);
     border: 1px black solid;
+    top: 30%;
 }
 .boxes-informacion{
     display: flex;
