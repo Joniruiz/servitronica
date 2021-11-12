@@ -40,36 +40,19 @@
     padding:0px 10px
 
 }
-
-@media screen and (min-width: 1280px){
-    .address-img{
-        display:none
+@media screen and (min-width: 768px){
+    .DesktopContactBg{
+        display:flex;
+        background-color: #C4C4C4;      
     }
-    .address-asside{
-        display:none
-    }
-    .btn-adress{
-    display: flex;
-    width: 40%;
-    transform: translate(150%,-100%);
-    height: 70px;
-    align-items: center;
-    align-content: center
-    }
-   .address-font{
-        background-color:#C4C4C4
-    }
-    .address-section{
-        background-color: white;
-    }
-
     .address-servitronic{
         display:none
     }
-   .DesktopContactBg{
-       display:flex;
-       background-color: #C4C4C4;      
-   }
+    
+    .address-servitronic{
+        display:none
+    }
+   
    #btn-uber{
     text-align: center
 }
@@ -80,4 +63,32 @@
     height:90%;
     padding:30px
 }
+.btn-adress{
+    display: flex;
+    width: 40%;
+    transform: translate(150%,-100%);
+    height: 70px;
+    align-items: center;
+    align-content: center
+    }
+    .address-img{
+        display:none
+    }
+}
+
+
+
+@media screen and (min-width: 1280px){
+   
+    .address-asside{
+        display:none
+    }
+   
+   .address-font{
+        background-color:#C4C4C4
+    }
+    .address-section{
+        background-color: white;
+    }
+
 }
