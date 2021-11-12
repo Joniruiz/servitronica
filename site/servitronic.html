@@ -206,17 +206,18 @@
     </div>
     <section class="contact" id="contacto">
         <div class="contactForm">
-                <h2 class="contactTitleOnMobile">PEDÍ TU PRESUPUESTO</h2>
-                <form method="POST" id="form">
+             <h2 class="contactTitleOnMobile">PEDÍ TU PRESUPUESTO</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" id="form">
                     <input type="hidden" name="apikey" value="2ce33f81-7ebb-4692-8f3f-b7c72732d02a">
                     <input type="hidden" name="subject" value="New Submission from Web3Forms">
                     <input type="checkbox" name="botcheck" id="" style="display: none;">
                 ​
                     <!-- Custom Form Data -->
+                    
                     <input id="name"  type="text" name="nombre" class="inputName" placeholder="Nombre">
                     <input id="tel" type="tel" name="telefono" class="" placeholder="Teléfono">
                     <input id="email" type="email"  name="email" class="" placeholder="Correo electrónico">
-                    <textarea id="msg" name="textarea" cols="30" rows="10"  style="resize:none" placeholder="Consulta"></textarea>
+                     <textarea id="msg" name="textarea" cols="30" rows="10"  style="resize:none" placeholder="Consulta"></textarea>
                     <button type="submit" id="btnSubmit" class="btnFormSubmit">ENVIAR</button>
                     <div id="result"></div>   ​
             </form> 
@@ -281,6 +282,7 @@
     <span>Llámenos hoy <a href="https://api.whatsapp.com/send?phone=541157412030">11-3526-4499</a></span>
 </footer>
 <script src="./public/javascripts/llamenos.js"></script>
+<script src="./public/javascripts/app.js"></script>
 </body>
 
 </html>

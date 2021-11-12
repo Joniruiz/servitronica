@@ -4,24 +4,26 @@ window.addEventListener("load",() => {
     $name = document.querySelector("#name"),
     $tel = document.querySelector("#tel"),
     $email = document.querySelector("#email"),
+    $description = document.querySelector("#msg"),
     regExEmail = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i,
     regExAlpha = /^[a-zA-Z0-9\sñáéíóúü ]*$/,
-    $description = document.querySelector("#msg"),
     validacion = false;
-
     $email.addEventListener("blur", () => {
         switch (true) {
             case !$email.value.trim():
                     validacion = true
+                    $email.style.borderColor = "red"
                 console.log(validacion);
                 break;
-            case !regExEmail.test($email.value):
+            case !regExEmail.test($email.value):               
+                $email.style.borderColor = "red"
                     validacion = true
                 console.log(validacion);
                 break;
         
             default:
                 validacion = false 
+                $email.style.borderColor = "green"
                 console.log(validacion);
                 break;
         }
@@ -29,15 +31,18 @@ window.addEventListener("load",() => {
     $name.addEventListener("blur", () => {
         switch (true) {
             case !$name.value.trim():
+                $name.style.borderColor = "red"
                     validacion = true
                 console.log(validacion);
                 break;
                 case !regExAlpha.test($name.value):
+                $name.style.borderColor = "red"
                     validacion = true
                 console.log(validacion);
                 break;
             default:
                 validacion = false 
+                $name.style.borderColor = "green"
                 console.log(validacion);
                 break;
         }
@@ -45,11 +50,13 @@ window.addEventListener("load",() => {
     $tel.addEventListener("blur", () => {
         switch (true) {
             case !$tel.value.trim():
+                $tel.style.borderColor = "red"
                     validacion = true
                 console.log(validacion);
                 break;
             default:
                 validacion = false 
+                $tel.style.borderColor = "green"
                 console.log(validacion);
                 break;
         }
@@ -57,6 +64,7 @@ window.addEventListener("load",() => {
     $description.addEventListener("blur", () => {
         switch (true) {
             case !$description.value.trim():
+                description.style.borderColor = "red"
                     validacion = true
                 console.log(validacion);
                 break;
@@ -65,22 +73,6 @@ window.addEventListener("load",() => {
                 console.log(validacion);
                 break;
         }
-    })
-    $form.addEventListener('submit', function(e){
-        let error = false;
-        e.preventDefault();
-        let elementsForm = this.elements;
-
-        for (let index = 0; index < elementsForm.length-1; index++){
-            if(elementsForm[index].value == ""){
-                elementsForm[index].classList.add('is-invalid');
-                $errors.innerHTML = 'Los campos señalados son obligatorios';
-                error = true;
-            }
-        }
-        if(!error){
-            console.log('Todo bien');
-            $form.submit();
-        }
-    })
+    })   
+    
 })
