@@ -40,6 +40,9 @@
     .address-asside{
         display:none
     }
+    .btn-adress{
+        display:flex
+    }
    .address-font{
         background-color:#C4C4C4
     }
