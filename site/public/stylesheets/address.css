@@ -1,5 +1,5 @@
 .address-section{
-    background-color: #C4C4C4;
+    background-color: var(--white);
    
 }
 .address{
