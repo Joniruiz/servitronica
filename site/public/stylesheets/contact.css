@@ -74,7 +74,8 @@
         width: 100%;
     }
     .DesktopContactBg {
-        object-fit: fill;
+        background-color: var(--grey);
+       
     }
     .contact {
         display: grid;
@@ -140,9 +141,8 @@
         
     }
     .contactLogo{
-        margin-right: 80%;
-        margin-top: 20px;
-    }
+        background-color: var(--grey);
+    } 
     .hrContact{
         width: 70%;
         background-color: var(--black);
