@@ -17,7 +17,7 @@
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    position: relative;
+    
     z-index: 3;
     position: fixed;
     width: 100vw;
@@ -96,6 +96,9 @@ text-align: center;
 .ulHeader li a{
     color: var(--black);
     font-size: 24px;
+}
+#top{
+
 }
 
 /*Medias querys de tablet*/
