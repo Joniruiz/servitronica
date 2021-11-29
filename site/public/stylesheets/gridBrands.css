@@ -1,3 +1,9 @@
+.tituloDeMarcasDesktop{
+    display: none;
+}
+.mobileHr{
+    margin-left: 0px;
+}
 .desktopHr{
     display: none;
 }
@@ -20,8 +26,8 @@
     color: var(--orange);
     font-size: 33px;
 }
-.importantBrands article small{
-    font-size: 24px;}
+/* .importantBrands article small{
+    font-size: 24px;} */
 .cajaConFoto{
     display:flex;
    flex-direction: column;
@@ -86,6 +92,9 @@ width: 150px;
 }
 
 @media (min-width: 768px){
+    .brandsTitle{
+        display: none;
+    }
     .tituloDeMarcas{
         display: none;
     }
@@ -118,6 +127,8 @@ width: 150px;
     }
     .tituloDeMarcasDesktop{
         font-weight: bold;
+        display: block;
+        font-size: 24px;
     }
     #marginSmeg{
         margin-top: 55px;
@@ -127,4 +138,15 @@ width: 150px;
         padding-top:35px ;
     }
 
+@media screen and (min-width: 600px){
+    .flex{
+        letter-spacing: 2px;
+        font-size: 45px;
+    }
+
+}
+@media screen and (min-width: 900px){
+    .otherBrands{
+        display: none;
+        }  
 }
