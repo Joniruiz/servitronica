@@ -7,6 +7,11 @@
         grid-column-gap: 30px;
         grid-row-gap: 30px;
 }
+.flex{
+    display: flex;
+    color: var(--orange);
+    font-size: 33px;
+}
 .importantBrands article small{
     font-size: 24px;
 }
@@ -30,4 +35,39 @@
 }
 .importantBrands article{
     display: flex;
+}
+.otherBrands{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    }
+.otherBrands hr{
+    margin: auto 0;
+    width: 100%;
+    background-color: black;
+    height: 5px;
+}
+
+.otherBrandsImgs{
+    width: 100%;
+}
+.Servicio{
+    align-self: center;
+    grid-row-start: 3;
+    grid-column-start: span 2;
+}
+.Oficial{
+    align-self: center;
+    grid-row-start: 5;
+    grid-column-start: span 2;
+}
+.EnTuHogar{
+    align-self: center;
+    grid-row-start: 7;
+    grid-column-start: span 2;
 }
