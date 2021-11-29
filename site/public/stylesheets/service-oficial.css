@@ -1,0 +1,58 @@
+@import url(styles.css);
+
+.background-services{
+    background-image: url(/site/public/images/services-bg_edited.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:50px 0 50px;
+    display:flex;
+    align-items:center;
+    background-position:bottom;
+
+}
+
+.desktop-service{    
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 20px;
+    width:100%;
+    background-color: white;
+    } 
+/* .desktop-service :last-child{
+    grid-row-gap:15px
+} */
+   .one{
+       grid-column: 1/span 4;
+    } 
+
+    .img img{
+        width: 100%;
+    }
+    .two{
+        grid-column: 1/span 2;
+        grid-row: 2/ span 3;
+    }
+    .two img{
+        width: 100%;
+    }
+    .marquesina{
+        margin-top: 5%;
+        font-size: 3.15rem;
+    }
+    .marquesina hr{
+        margin: auto 0;
+        width: 100%;
+        background-color: black;
+        height: 5px;
+    }
+    .marque-hr{
+        display: flex;
+    }
+    .marque-hr hr{
+        width: 200px;
+    }
+    .marquee{
+        grid-column: 5/span 3;
+    }
