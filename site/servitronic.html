@@ -77,20 +77,20 @@
                
             </div>
             <div class="btn-presupuesto">
-                <a href="#">SOLICITE SU PRESUPUESTO</a>
+                <a id="nosotros" href="#contacto">SOLICITE SU PRESUPUESTO</a>
             </div>
            
             
-        </section>
+        </section >
 
          
-        <section class="aboutUs" id="nosotros">
+        <section class="aboutUs" >
             <img src="./public/images/SERVITRONIC.png" width="100%" alt="">
             <h5>GARANTÍA DE CONFIANZA</h5>
             <p>Somos servicio técnico oficial de importantes marcas, brindamos la mejor atención por profesionales</p>
         </section>
 
-        <section class="brands">
+        <section class="brands" id="servicios">
             <!-- Carousel -->
             <div class="brands-title">MARCAS QUE ATENDEMOS</div>
             <div class="slider">
@@ -143,6 +143,7 @@
        
        <section class="service">
            <div class="servicios">
+               <img class="serviciosImg" width="100%" src="./public/images/SERVICIOS.png" alt="">
            <h4 class="titulo-service">SERVICIOS</h4>
            </div>
            <div class="to-box">
@@ -180,7 +181,9 @@
                  <p class="estamos"><span class="textoNegrita">"Estamos a su lado </span> <span class="textoLighter"> para resolver los inconvenientes que electromésticos y equipamientos del hogar puedan presentar y nos alegra llevarles soluciones a estos problemas cotidianos"</span>
                      </p>
                  <img class="imgMobile" src="./public/images/Frame 8.png" alt="" width="100%">
+                 
                  <marquee behavior="" direction=""> CONTACTANOS </marquee>
+                
                 </div>
                 
                 <div class="imagenLogo">
@@ -192,31 +195,78 @@
             </div>
 
        </section>
-        
+        <section class="gridBrands">
+            <section class="brandsTitle">
+                <img src="" alt="">
+            </section>
+            <section class="importantBrands">
+                <article>
+                    <figure>
+                        <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
+                    </figure>
+                    <div>
+                        <hr>
+                        <small>SMEG</small>
+                        <p>Son la prueba de que sofisticación y tecnología pueden converger en un mismo lugar.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
+                    </figure>
+                    <div>
+                        <hr>
+                        <small>GLEM</small>
+                        <p>Detalles con estilo, elegancia y funcionalidad; las características de la calidad y el diseño italiano, con rendimiento elevado.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
+                    </figure>
+                    <div>
+                        <hr>
+                        <small>ARISTON</small>
+                        <p>Para Ariston, la innovación significa facilitar la vida de las personas, fiable en el tiempo y con estética.</p>
+                    </div>
+                </article>
+                <article>
+                    <figure>
+                        <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
+                    </figure>
+                    <div>
+                        <hr>
+                        <small>CATA</small>
+                        <p>Alcanzando su posición de liderazgo en el mercado, gracias a su gran capacidad de anticiparse a las necesidades.</p>
+                    </div>
+                </article>
+            </section>
+            <section class="otherBrands"></section>
+        </section>
    
-    <div>
-        <img src="" alt="">
-        <div>
+    <div >
+        <img id="contacto"  src="" alt="">
+        <div >
             <img src="/public/images/contact.png" alt="" srcset="" class="contactImg">
             <div style="background-color: #C4C4C4;" class="DesktopContactBg">
-                <img src="./public/images/CONTACTO.png" width="100%" style="margin-top: -50px;" alt="">
-                <!-- <h2 class="frontContact">CONTACTO</h2> -->
+                <img src="./public/images/CONTACTO.png" width="100%" alt="">
             </div>
         </div>
     </div>
-    <section class="contact" id="contacto">
+    <section class="contact" >
         <div class="contactForm">
-                <h2 class="contactTitleOnMobile">PEDÍ TU PRESUPUESTO</h2>
-                <form method="POST" id="form">
+             <h2 class="contactTitleOnMobile">PEDÍ TU PRESUPUESTO</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" id="form">
                     <input type="hidden" name="apikey" value="2ce33f81-7ebb-4692-8f3f-b7c72732d02a">
                     <input type="hidden" name="subject" value="New Submission from Web3Forms">
                     <input type="checkbox" name="botcheck" id="" style="display: none;">
                 ​
                     <!-- Custom Form Data -->
+                    
                     <input id="name"  type="text" name="nombre" class="inputName" placeholder="Nombre">
                     <input id="tel" type="tel" name="telefono" class="" placeholder="Teléfono">
                     <input id="email" type="email"  name="email" class="" placeholder="Correo electrónico">
-                    <textarea id="msg" name="textarea" cols="30" rows="10"  style="resize:none" placeholder="Consulta"></textarea>
+                     <textarea id="msg" name="textarea" cols="30" rows="10"  style="resize:none" placeholder="Consulta"></textarea>
                     <button type="submit" id="btnSubmit" class="btnFormSubmit">ENVIAR</button>
                     <div id="result"></div>   ​
             </form> 
@@ -235,24 +285,25 @@
             <h2 class="sideServitronic">SERVITRONIC</h2>
         </aside>
     </section>
-    <img src="/public/images/contactFinish.png" alt="" srcset="" class="finishOfContact">
     <section class="address">
-        <div class="DesktopContactBg">
-            <img src="./public/images/DIRECCION.png" width="100%" alt="">
-           <!--  <h2 class="frontContact">DIRECCIÓN</h2> -->
-        </div>  
+        <div style="background-color: #C4C4C4;" class="DesktopContactBg">
+            <img src="./public/images/direccionFinal.png" width="100%" alt="">
+        </div>
         <div class="address-section">
-            <figure>
-                <img src="/public/images/Frame 7.png" alt="" srcset="">
+            <figure >
+                <img  class="address-img" src="./public/images/address-img.png" alt="" srcset="">
             </figure>
             <div class="adress-content">
             <div class="address-text">
                 <div class="address-brand">
-                    <h2 class="address-asside">SERVITRONIC</h2>
+                    <!-- <h2 class="address-asside">SERVITRONIC</h2> -->
+                    <img class='address-servitronic' src="./public/images/Group.png" alt="" srcset="">
                 </div>
+                <div class='address-container-desk'>
                 <div class="address-title">
                     <h1>dirección</h1>
                 </div>
+                
                 <div class="address">
                     <p>
                         <i class="fas fa-map-marker-alt"></i>
@@ -261,11 +312,16 @@
                     </p>
                 </div>
             </div>
+                <div  class="btn-adress">
+                    <a id='btn-uber' class='btnFormSubmit' target='_blank' href="https://www.google.com.ar/maps/dir//Cnel.+Ramón+L.+Falcón+4858,+C1407GTF+CABA/@-34.638291,-58.4978158,17z/data=!4m17!1m7!3m6!1s0x95bcc9baf279886b:0xe3c331b74e04c0a3!2sCnel.+Ramón+L.+Falcón+4858,+C1407GTF+CABA!3b1!8m2!3d-34.6382954!4d-58.4956218!4m8!1m0!1m5!1m1!1s0x95bcc9baf279886b:0xe3c331b74e04c0a3!2m2!1d-58.4956218!2d-34.6382954!3e3">INICIAR VIAJE</a>
+                </div>
+                
+            </div>
             </div>
             <div class="map-google">
-            <iframe
+            <iframe id='map-desk'
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6495514783037!2d-58.49781048429623!3d-34.638295380450586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9baf279886b%3A0xe3c331b74e04c0a3!2sCnel.%20Ram%C3%B3n%20L.%20Falc%C3%B3n%204858%2C%20C1407GTF%20CABA!5e0!3m2!1ses-419!2sar!4v1635345498974!5m2!1ses-419!2sar"
-            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            width="100%" height="200" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
             </div>
         </div>
     </section>

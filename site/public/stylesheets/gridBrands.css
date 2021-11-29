@@ -1,0 +1,33 @@
+.importantBrands{
+    margin: 0 auto;
+        width: 90vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+}
+.importantBrands article small{
+    font-size: 24px;
+}
+
+.importantBrands article hr{
+    background-color: black;
+    width: 22.72px;
+    height: 3.03px;
+}
+.importantBrands article div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.importantBrands article div p{
+    font-size: 18px;
+}
+.importantBrands article figure img{
+    width: 266px;
+    height: 118px;
+}
+.importantBrands article{
+    display: flex;
+}

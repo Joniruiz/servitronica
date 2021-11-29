@@ -65,6 +65,10 @@
 .frontContact {
     display: none;
 }
+.DesktopContactBg {
+    background-color: var(--grey);
+   display: none;
+}
 @media (min-width: 768px){
     .contactImg {
         display: none;
@@ -74,7 +78,8 @@
         width: 100%;
     }
     .DesktopContactBg {
-        object-fit: fill;
+        background-color: var(--grey);
+       display: block;
     }
     .contact {
         display: grid;
@@ -94,6 +99,7 @@
         justify-content: center;
         align-items: flex-start;
         gap: 30px;
+        margin: 24px;
     }
     #contactSignature {
         margin-left: 40%;
@@ -103,7 +109,7 @@
     }
     .frontContact {
         display: block;
-        font-size: 13.2vw;
+        font-size: 16.5vw;
         text-align: center;
         color: var(--orange);
         -webkit-text-stroke: 1px #00000050;
@@ -140,9 +146,8 @@
         
     }
     .contactLogo{
-        margin-right: 80%;
-        margin-top: 20px;
-    }
+        background-color: var(--grey);
+    } 
     .hrContact{
         width: 70%;
         background-color: var(--black);

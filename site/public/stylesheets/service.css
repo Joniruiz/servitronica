@@ -12,10 +12,14 @@ section.service{
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    position: relative;
 }
 .titulo-service{
+    font-size: 25px;
+    position: absolute;
+   
     border: 1px black solid;
-    width: fit-content;
+    top: 16%;
 }
 .boxes-informacion{
     display: flex;
@@ -48,7 +52,8 @@ hr.hrBox{
 }
 .estamos{
     padding: 45px;
-    line-height: 29px;
+    line-height: 36px;
+    font-size: 28px;
 }
 
 @media screen and (min-width: 768px){
@@ -142,10 +147,12 @@ hr.hrBox{
     margin-bottom: 12%;
 }
 .servicios{
+    
     display: flex;
     justify-content: center;
     margin-bottom: 0;
 }
+#greyB
 #greyBox{
     margin: 0;
     padding: 18px;
@@ -164,7 +171,9 @@ span.textoNegrita{
     margin-left: 0;
     font-weight: bold;
 }
-
+.serviciosImg{
+display: none;
+}
 @media screen and (min-width: 1020px){
     .estamos{
         font-size: 1.9rem;
