@@ -1,3 +1,7 @@
+.boton-wsp{
+    display:none;
+}
+
 .welcome {
     height: 100%;
     background-image: url('../images/Banner.jpg');
