@@ -1,6 +1,16 @@
 
-brandsTitle{
-    background-image: url();
+.brandsTitle{
+    background-image: url(/site/public/images/MARCAS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid black;
+    padding: 35px;
+    margin-bottom: 22px;
+}
+.marcasPrincipalTitulo{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: fit-content;
 }
 .cajaConFoto{
     display:flex;

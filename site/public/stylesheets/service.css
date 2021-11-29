@@ -1,3 +1,6 @@
+.stickyLogo{
+    display: none;
+}
 section.service{
     align-items: center;
     text-align: center;
