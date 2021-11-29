@@ -135,6 +135,7 @@ margin-top: 55px;
     .importantBrandsImg{
         width: 266px;
         height: 118px;
+       
     }
     .textoMarca{
         font-size: 23px;
@@ -154,6 +155,7 @@ margin-top: 55px;
     figure{
         padding-top:35px ;
     }
+}
 
 @media screen and (min-width: 600px){
     .flex{
