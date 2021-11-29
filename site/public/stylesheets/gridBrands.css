@@ -1,4 +1,6 @@
-
+.desktopHr{
+    display: none;
+}
 .brandsTitle{
     background-image: url(../images/MARCAS.png);
     background-repeat: no-repeat;
@@ -11,6 +13,7 @@
     border: 1px solid black;
     margin: 0 auto;
     width: fit-content;
+    background-color: white;
 }
 .flex{
     display: flex;
@@ -80,4 +83,48 @@ width: 150px;
 .tituloDeMarcas{
     font-weight: bolder;
     margin: 3px 0 3px;
+}
+
+@media (min-width: 768px){
+    .tituloDeMarcas{
+        display: none;
+    }
+    .cajaConFoto{
+        display: flex;
+        flex-direction: row;
+    }
+    .mobileHr{
+        display: none;
+    }
+    .desktopHr{
+        display: block;
+        margin-bottom: 13px;
+    }
+    .cajaConFoto{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .importantBrandsImg{
+        width: 266px;
+        height: 118px;
+    }
+    .textoMarca{
+        font-size: 23px;
+        line-height: 29px;
+        max-width: 389px;
+        height: 132px;
+    }
+    .tituloDeMarcasDesktop{
+        font-weight: bold;
+    }
+    #marginSmeg{
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
+    figure{
+        padding-top:35px ;
+    }
+
 }
