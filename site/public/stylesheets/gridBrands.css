@@ -1,33 +1,171 @@
-.importantBrands{
+.brandsTitleDesktop{
+    display: none;
+}
+.tituloDeMarcasDesktop{
+    display: none;
+}
+.mobileHr{
+    margin-left: 0px;
+}
+.desktopHr{
+    display: none;
+}
+.brandsTitle{
+    background-image: url(../images/MARCAS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid black;
+    padding: 50px 0 20px;
+    margin-bottom: 22px;
+}
+.marcasPrincipalTitulo{
+    border: 1px solid black;
     margin: 0 auto;
-        width: 90vw;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
+    width: fit-content;
+    background-color: white;
 }
-.importantBrands article small{
-    font-size: 24px;
-}
-
-.importantBrands article hr{
-    background-color: black;
-    width: 22.72px;
-    height: 3.03px;
-}
-.importantBrands article div{
+.flex{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    color: var(--orange);
+    font-size: 33px;
 }
-.importantBrands article div p{
-    font-size: 18px;
+/* .importantBrands article small{
+    font-size: 24px;} */
+.cajaConFoto{
+    display:flex;
+   flex-direction: column;
 }
-.importantBrands article figure img{
-    width: 266px;
-    height: 118px;
+.importantBrandsImg{
+width: 150px;
+margin-top: 55px;
+}
+.SmegFirst{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+.textoMarca{
+    font-size: 14px;
+    max-width: 150px;
+    line-height: 19px;
+    margin-top: 5px;
 }
 .importantBrands article{
     display: flex;
+}
+.otherBrands{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    }
+.otherBrands hr{
+    margin: auto 0;
+    width: 100%;
+    background-color: black;
+    height: 5px;
+}
+
+.otherBrandsImgs{
+    width: 100%;
+}
+.Servicio{
+    align-self: center;
+    grid-row-start: 3;
+    grid-column-start: span 2;
+}
+.Oficial{
+    align-self: center;
+    grid-row-start: 5;
+    grid-column-start: span 2;
+}
+.EnTuHogar{
+    align-self: center;
+    grid-row-start: 7;
+    grid-column-start: span 2;
+    margin: 0 auto;
+}
+.tituloDeMarcas{
+    font-weight: bolder;
+    margin: 3px 0 3px;
+}
+
+@media (min-width: 768px){
+    .brandsTitleDesktop{
+        background-color: var(--grey);
+        display: block;
+        text-align: center;
+    }
+    .imgitulomarcad{
+        width: 80%;
+        margin-top: -80px;
+        margin-bottom: -80px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+   
+
+    .brandsTitle{
+        display: none;
+    }
+    .tituloDeMarcas{
+        display: none;
+    }
+    .cajaConFoto{
+        display: flex;
+        flex-direction: row;
+    }
+    .mobileHr{
+        display: none;
+    }
+    .desktopHr{
+        display: block;
+        margin-bottom: 13px;
+    }
+    .cajaConFoto{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .importantBrandsImg{
+        width: 266px;
+        height: 118px;
+       
+    }
+    .textoMarca{
+        font-size: 23px;
+        line-height: 29px;
+        max-width: 389px;
+        height: 132px;
+    }
+    .tituloDeMarcasDesktop{
+        font-weight: bold;
+        display: block;
+        font-size: 24px;
+    }
+    #marginSmeg{
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
+    figure{
+        padding-top:35px ;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .flex{
+        letter-spacing: 2px;
+        font-size: 45px;
+    }
+
+}
+@media screen and (min-width: 900px){
+    .otherBrands{
+        display: none;
+        }  
 }

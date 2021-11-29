@@ -22,6 +22,7 @@
     <!-- Javascripts -->
     <script src="./public/javascripts/app.js" defer></script>
     <script src="/public/javascripts/form.js" defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
@@ -60,6 +61,11 @@
     <hr class="headerHr">
     </header>
     <main>
+        <div class="boton-wsp" style="border: 1px solid black;">
+        <a class="logoWsp" href="https://api.whatsapp.com/send?phone=1135264499" target="_blank">
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_dyf5lscb.json"  background="transparent"  speed="1"  style="width: 60px; height: 60px;"  loop  autoplay></lottie-player>
+          </a>
+        </div>
         <div class="wppButton"></div>
         <section class="welcome">
             <div class="textos">
@@ -196,52 +202,88 @@
 
        </section>
         <section class="gridBrands">
+            <section class="brandsTitleDesktop">
+             <img class="imgitulomarcad" src="./public/images/mARCAS222.png" alt="">
+            </section>
             <section class="brandsTitle">
-                <img src="" alt="">
+                <h3 class="marcasPrincipalTitulo">MARCAS</h3>
             </section>
             <section class="importantBrands">
-                <article>
+                <div class="SmegFirst">
+                <article class="cajaConFoto">
+                    <hr class="mobileHr" style="width: 22px; border:1px solid black">
+                    <small class="tituloDeMarcas">SMEG</small>
                     <figure>
                         <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
                     </figure>
-                    <div>
-                        <hr>
-                        <small>SMEG</small>
-                        <p>Son la prueba de que sofisticación y tecnología pueden converger en un mismo lugar.</p>
+                    <div class="desktopAcomodo">
+                        <hr class="desktopHr" style="width: 22px; border:1px solid black">
+                        <small class="tituloDeMarcasDesktop">SMEG</small>
+                        <p class="textoMarca">Son la prueba de que sofisticación y tecnología pueden converger en un mismo lugar.</p>
                     </div>
-                </article>
-                <article>
+                  
+                    </article>
+                <article class="cajaConFoto">
+                    <hr class="mobileHr" style="width: 22px; border:1px solid black">
+                    <small class="tituloDeMarcas">ARISTON</small>
                     <figure>
                         <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
                     </figure>
-                    <div>
-                        <hr>
-                        <small>GLEM</small>
-                        <p>Detalles con estilo, elegancia y funcionalidad; las características de la calidad y el diseño italiano, con rendimiento elevado.</p>
-                    </div>
+                    <div class="desktopAcomodo">
+                        <hr class="desktopHr" style="width: 22px; border:1px solid black">
+                    <small class="tituloDeMarcasDesktop">ARISTON</small>
+                    <p class="textoMarca">Para Ariston, la innovación significa facilitar la vida de las personas, fiable en el tiempo y con estética.</p>
+                </div>
                 </article>
-                <article>
+               
+            </div>
+            
+            <div class="SmegFirst" id="marginSmeg">
+                <article class="cajaConFoto">
+                    <hr class="mobileHr" style="width: 22px; border:1px solid black">
+                    <small class="tituloDeMarcas">CATA</small>
                     <figure>
                         <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
                     </figure>
-                    <div>
-                        <hr>
-                        <small>ARISTON</small>
-                        <p>Para Ariston, la innovación significa facilitar la vida de las personas, fiable en el tiempo y con estética.</p>
-                    </div>
+                    <div class="desktopAcomodo"> 
+                        <hr class="desktopHr" style="width: 22px; border:1px solid black">
+                    <small class="tituloDeMarcasDesktop">CATA</small>
+                    <p class="textoMarca">Alcanzando su posición de liderazgo en el mercado, gracias a su gran capacidad de anticiparse a las necesidades.</p>
+                </div>
                 </article>
-                <article>
+                <article class="cajaConFoto">
+                    <hr class="mobileHr" style="width: 22px; border:1px solid black">
+                    <small class="tituloDeMarcas">GLEM</small>
                     <figure>
                         <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
+                        
                     </figure>
-                    <div>
-                        <hr>
-                        <small>CATA</small>
-                        <p>Alcanzando su posición de liderazgo en el mercado, gracias a su gran capacidad de anticiparse a las necesidades.</p>
-                    </div>
+                    <div class="desktopAcomodo"> 
+                        <hr class="desktopHr" style="width: 22px; border:1px solid black">
+                    <small class="tituloDeMarcasDesktop">GLEM</small>               
+                    <p class="textoMarca">Detalles con estilo, elegancia y funcionalidad; las características de la calidad y el diseño italiano, con rendimiento elevado.</p>
+                </div> 
                 </article>
+            </section> 
+            
+            <section class="otherBrands">
+                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+                <div class="flex Servicio"><span>SERVICIO</span><hr></div>
+                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+                <div class="flex Oficial"><hr><span>OFICIAL</span></div>
+                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+                <div class="flex EnTuHogar"><span>EN TÚ HOGAR</span></div>
+                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+            
+               
+            </div>
             </section>
-            <section class="otherBrands"></section>
         </section>
    
     <div >
@@ -307,21 +349,20 @@
                 <div class="address">
                     <p>
                         <i class="fas fa-map-marker-alt"></i>
-                        Ramon Falcon 4858 <br>
+                        Drysdale 5624 <br>
                         Carapachay, Vicente Lopez
                     </p>
                 </div>
             </div>
                 <div  class="btn-adress">
-                    <a id='btn-uber' class='btnFormSubmit' target='_blank' href="https://www.google.com.ar/maps/dir//Cnel.+Ramón+L.+Falcón+4858,+C1407GTF+CABA/@-34.638291,-58.4978158,17z/data=!4m17!1m7!3m6!1s0x95bcc9baf279886b:0xe3c331b74e04c0a3!2sCnel.+Ramón+L.+Falcón+4858,+C1407GTF+CABA!3b1!8m2!3d-34.6382954!4d-58.4956218!4m8!1m0!1m5!1m1!1s0x95bcc9baf279886b:0xe3c331b74e04c0a3!2m2!1d-58.4956218!2d-34.6382954!3e3">INICIAR VIAJE</a>
+                    <a id='btn-uber' class='btnFormSubmit' target='_blank' href="https://www.google.com/maps/dir//Drysdale+5624,+B1606AYF+Carapachay,+Provincia+de+Buenos+Aires/@-34.5274641,-58.5371093,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x95bcb0b9250911f7:0xab56bfbb9c20e7cd!2m2!1d-58.5349206!2d-34.5274685!3e0">INICIAR VIAJE</a>
                 </div>
                 
             </div>
             </div>
             <div class="map-google">
-            <iframe id='map-desk'
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6495514783037!2d-58.49781048429623!3d-34.638295380450586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9baf279886b%3A0xe3c331b74e04c0a3!2sCnel.%20Ram%C3%B3n%20L.%20Falc%C3%B3n%204858%2C%20C1407GTF%20CABA!5e0!3m2!1ses-419!2sar!4v1635345498974!5m2!1ses-419!2sar"
-            width="100%" height="200" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4648.571101226922!2d-58.53738481444086!3d-34.527312119626394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0b9250911f7%3A0xab56bfbb9c20e7cd!2sDrysdale%205624%2C%20B1606AYF%20Carapachay%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1638221337820!5m2!1ses!2sar"
+            width="100%" height="450" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
             </div>
         </div>
     </section>
