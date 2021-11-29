@@ -37,7 +37,7 @@
 }
 .importantBrandsImg{
 width: 150px;
-
+margin-top: 55px;
 }
 .SmegFirst{
     display: flex;
@@ -96,9 +96,19 @@ width: 150px;
 
 @media (min-width: 768px){
     .brandsTitleDesktop{
-        background-color: var(--darkgrey);
+        background-color: var(--grey);
         display: block;
+        text-align: center;
     }
+    .imgitulomarcad{
+        width: 80%;
+        margin-top: -80px;
+        margin-bottom: -80px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+   
+
     .brandsTitle{
         display: none;
     }
