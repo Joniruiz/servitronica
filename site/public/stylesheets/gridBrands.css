@@ -1,33 +1,17 @@
-.importantBrands{
-    margin: 0 auto;
-        width: 90vw;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
+.cajaConFoto{
+    display:flex;
+   flex-direction: column;
 }
-.importantBrands article small{
-    font-size: 24px;
-}
+.importantBrandsImg{
+width: 150px;
 
-.importantBrands article hr{
-    background-color: black;
-    width: 22.72px;
-    height: 3.03px;
 }
-.importantBrands article div{
+.SmegFirst{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-.importantBrands article div p{
-    font-size: 18px;
-}
-.importantBrands article figure img{
-    width: 266px;
-    height: 118px;
-}
-.importantBrands article{
-    display: flex;
+.textoMarca{
+    font-size: 14px;
+    max-width: 150px;
+    line-height: 19px;
 }
