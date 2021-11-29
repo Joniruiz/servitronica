@@ -71,3 +71,16 @@ width: 150px;
     font-weight: bolder;
     margin: 3px 0 3px;
 }
+
+@media screen and (min-width: 600px){
+    .flex{
+        letter-spacing: 2px;
+        font-size: 45px;
+    }
+
+}
+@media screen and (min-width: 900px){
+    .otherBrands{
+        display: none;
+        }  
+}
