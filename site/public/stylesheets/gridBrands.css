@@ -1,3 +1,6 @@
+.brandsTitleDesktop{
+    display: none;
+}
 .tituloDeMarcasDesktop{
     display: none;
 }
@@ -92,6 +95,10 @@ width: 150px;
 }
 
 @media (min-width: 768px){
+    .brandsTitleDesktop{
+        background-color: var(--darkgrey);
+        display: block;
+    }
     .brandsTitle{
         display: none;
     }
