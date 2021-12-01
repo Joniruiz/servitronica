@@ -27,7 +27,10 @@
 .flex{
     display: flex;
     color: var(--orange);
-    font-size: 33px;
+    font-size: 45px;
+}
+.flex span{
+    text-align: center;
 }
 /* .importantBrands article small{
     font-size: 24px;} */
@@ -94,6 +97,7 @@ margin-top: 55px;
     margin: 3px 0 3px;
 }
 
+
 @media (min-width: 768px){
     .brandsTitleDesktop{
         background-color: var(--grey);
@@ -135,6 +139,7 @@ margin-top: 55px;
     .importantBrandsImg{
         width: 266px;
         height: 118px;
+        
        
     }
     .textoMarca{
@@ -152,8 +157,12 @@ margin-top: 55px;
         margin-top: 55px;
         margin-bottom: 55px;
     }
-    figure{
+    .gridBrands figure{
         padding-top:35px ;
+        height: 280px;
+    }
+    .importantBrands{
+        margin-bottom: -60px;
     }
 }
 
