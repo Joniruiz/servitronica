@@ -135,6 +135,7 @@ margin-top: 55px;
     .importantBrandsImg{
         width: 266px;
         height: 118px;
+        
        
     }
     .textoMarca{
@@ -154,6 +155,10 @@ margin-top: 55px;
     }
     figure{
         padding-top:35px ;
+        height: 280px;
+    }
+    .importantBrands{
+        margin-bottom: -60px;
     }
 }
 
