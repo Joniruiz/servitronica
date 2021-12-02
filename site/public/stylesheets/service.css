@@ -59,6 +59,10 @@ hr.hrBox{
     font-size: 28px;
 }
 
+.strong-desktop{
+    display: none;
+}
+
 @media screen and (min-width: 768px){
     section.service{
         background-color: var(--grey);
@@ -177,6 +181,9 @@ span.textoNegrita{
 }
 .serviciosImg{
 display: none;
+}
+.strong-desktop{
+    display: block;
 }
 @media screen and (min-width: 1020px){
     .estamos{
