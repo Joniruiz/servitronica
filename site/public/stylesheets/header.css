@@ -95,7 +95,7 @@ text-align: center;
 }
 .ulHeader li a{
     color: var(--black);
-    font-size: 24px;
+    font-size: 20px;
 }
 #top{
 
@@ -127,7 +127,7 @@ text-align: center;
     }
     .ulHeader {
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
      align-items: baseline;
     }
     /* .ulHeader ul{
@@ -151,7 +151,7 @@ text-align: center;
         border-bottom: 5px transparent solid;
         border-top: 5px black solid;
         background-color: var(--orange);
-        box-shadow: 0px  30px var(--orange);
+        box-shadow: 0px  20px var(--orange);
         transition: all 0.2s;
     }
     .menuMobile{
@@ -164,4 +164,9 @@ text-align: center;
     }
     
 }
+@media screen and (min-width: 900px){
+    .ulHeader li a{
+        font-size: 24px;
+    }
+ }
 
