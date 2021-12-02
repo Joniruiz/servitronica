@@ -139,25 +139,4 @@ window.addEventListener("load", () => {
         }
 
     })
-    window.addEventListener("scroll", () => {
-        /* let footer = document.querySelector("footer")
-        
-        function getOffset(el) {
-            const rect = el.getBoundingClientRect();
-            return {
-              left: rect.left + window.scrollX,
-              top: rect.top + window.scrollY
-            };
-          }
-        let offSet =getOffset(footer);
-        let bodyScroll = document.body.scrollHeight
-        console.log(offSet)
-        console.log(window.scrollY);
-        console.log(footer.scrollHeight);
-        console.log(bodyScroll);
-        if ( window.screenY <= footer.style.height ) {
-            console.log("asd");
-        } */
-        
-    })
 })
