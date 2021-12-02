@@ -7,11 +7,19 @@ footer{
     bottom: 0;
     height: 41px;
     align-items: center;
+    padding-bottom: 15px;
 }
 footer img {
     height: 20px;
 }
 footer span {
+    display: none;
+}
+
+#div-bot {
+    display: none;
+}
+#hr-footer{
     display: none;
 }
 
@@ -24,6 +32,7 @@ footer span {
         font-family: 'Montserrat', sans-serif;
         font-weight: bolder;
         flex-direction: column;
+        
     }
     footer img {
         height: 30px;
@@ -45,6 +54,11 @@ footer span {
     #llamenos{
         margin-top: 10px;
     }
-    
+    #div-bot {
+        display: flex;
+    }
+    #hr-footer{
+        display: block;
+    }
  }
  
