@@ -59,9 +59,8 @@ margin-top: 55px;
 .otherBrands{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.5fr 0.5fr 0.5fr ;
     grid-column-gap: 5px;
-    grid-row-gap: 5px;
     width: 90vw;
     margin: 0 auto;
     align-items: center;
@@ -77,18 +76,14 @@ margin-top: 55px;
     width: 100%;
 }
 .Servicio{
+    justify-content: center;
     align-self: center;
-    grid-row-start: 3;
-    grid-column-start: span 2;
-}
-.Oficial{
-    align-self: center;
-    grid-row-start: 5;
+    grid-row-start: 1;
     grid-column-start: span 2;
 }
 .EnTuHogar{
     align-self: center;
-    grid-row-start: 7;
+    grid-row-start: 2;
     grid-column-start: span 2;
     margin: 0 auto;
 }
@@ -165,6 +160,9 @@ margin-top: 55px;
     .importantBrands{
         margin-bottom: -60px;
     }
+    .otherBrands{
+        display: none;
+        }
 }
 
 @media screen and (min-width: 600px){
@@ -173,9 +171,4 @@ margin-top: 55px;
         font-size: 45px;
     }
 
-}
-@media screen and (min-width: 900px){
-    .otherBrands{
-        display: none;
-        }  
 }
