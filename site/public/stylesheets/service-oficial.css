@@ -1,5 +1,8 @@
 @import url(styles.css);
-
+.background-services{
+    display: none;
+}
+@media screen and (min-width: 768px){
 .background-services{
     background-image: url(/site/public/images/services-bg_edited.jpg);
     background-size:cover;
@@ -56,3 +59,4 @@
     .marquee{
         grid-column: 5/span 3;
     }
+}
