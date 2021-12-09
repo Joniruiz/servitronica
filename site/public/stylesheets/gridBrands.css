@@ -1,3 +1,7 @@
+.hache{
+    display: none;
+}
+
 .brandsTitleDesktop{
     display: none;
 }
@@ -37,7 +41,6 @@
 }
 .importantBrandsImg{
 width: 150px;
-margin-top: 55px;
 }
 .SmegFirst{
     display: flex;
@@ -50,9 +53,9 @@ margin-top: 55px;
     line-height: 19px;
     margin-top: 5px;
 }
-.importantBrands article{
+/* .importantBrands article{
     display: flex;
-}
+} */
 .otherBrands{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -99,6 +102,7 @@ margin-top: 55px;
         background-color: var(--grey);
         display: block;
         text-align: center;
+        margin-bottom: 50px;
     }
     .imgitulomarcad{
         width: 80%;
@@ -106,6 +110,25 @@ margin-top: 55px;
         margin-bottom: -80px;
         padding-top: 25px;
         padding-bottom: 25px;
+    }
+/*     .secHache1{
+        margin-left: -15%;
+    } */
+    .secHache1{
+        margin-left: 1%;
+    }
+    .secHache2{
+        margin-left: -55%;
+    }
+    .hachesQ{
+        display:flex;
+       
+    }
+    .hache{
+        display: block;
+        color: black;
+        background-color: black;
+        width: 265px;
     }
    
 
@@ -151,9 +174,7 @@ margin-top: 55px;
         margin-top: 55px;
         margin-bottom: 55px;
     }
-    figure{
-        padding-top:35px ;
-    }
+
 
 @media screen and (min-width: 600px){
     .flex{
