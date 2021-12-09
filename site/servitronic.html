@@ -22,12 +22,13 @@
     <!-- Javascripts -->
     <script src="./public/javascripts/app.js" defer></script>
     <script src="/public/javascripts/form.js" defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
     <header id="top">
         <div class="llamenos"  >
-            <span>Llámenos hoy <a href="https://api.whatsapp.com/send?phone=541157412030">11-3526-4499</a></span>
+            <span>Llámenos hoy <a href="tel:+5491127043091">11-2704-3091</a></span>
             
             <div class="hamburger hamburger--elastic">
                 <div class="hamburger-box">
@@ -42,6 +43,7 @@
                     <li><a href="#nosotros">NOSOTROS</a></li>
                     <li><a href="#servicios">SERVICIOS</a></li>
                     <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#marcas">MARCAS</a></li>
                 </ul>
             </nav>
             <hr class="mobileHr">
@@ -54,12 +56,18 @@
                 <li><a href="#nosotros">NOSOTROS</a></li>
                 <li><a href="#servicios">SERVICIOS</a></li>
                 <li><a href="#contacto">CONTACTO</a></li>
+                <li><a href="#marcas">MARCAS</a></li>
             </ul>
         
     </div>
     <hr class="headerHr">
     </header>
     <main>
+        <div class="boton-wsp" >
+        <a class="logoWsp" href="https://api.whatsapp.com/send?phone=1127043091" target="_blank">
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_dyf5lscb.json"  background="transparent"  speed="1"  style="width: 60px; height: 60px;"  loop  autoplay></lottie-player>
+          </a>
+        </div>
         <div class="wppButton"></div>
         <section class="welcome">
             <div class="textos">
@@ -87,7 +95,10 @@
         <section class="aboutUs" >
             <img src="./public/images/SERVITRONIC.png" width="100%" alt="">
             <h5>GARANTÍA DE CONFIANZA</h5>
-            <p>Somos servicio técnico oficial de importantes marcas, brindamos la mejor atención por profesionales</p>
+            <p style="font-size: 20px;">Somos servicio técnico oficial de <br> reconocidas marcas <br>
+                y nuestro objetivo es brindarte <br>
+                la mejor atención.
+                </p>
         </section>
 
         <section class="brands" id="servicios">
@@ -151,34 +162,39 @@
                      <article class="boxInfo">
                         <img class="imgBox" src="./public/images/staf.png" alt="staff">
                         <hr class="hrBox">
-                        <h2 class="titleBox"> STAFF EXPERIMENTADO </h2>
-                        <p class="textBox">
-                            Todos nuestros técnicos están experimentados, para brindarles confianza en nuestras soluciones
+                        <h2 class="titleBox" style="font-size:26px"> STAFF EXPERIMENTADO </h2>
+                        <p class="textBox" style="font-size: 22px;">
+                            Todos nuestros técnicos cuentan <br> con amplia experiencia para <br> poder dar respuesta <br> 
+a tus requerimientos.
                         </p>     
                         <hr class="hrDesktop">    
                      </article>
                      <article id="greyBox" class="boxInfo">
                         <img class="imgBox" src="./public/images/calidad.png" alt="calidad">
                         <hr class="hrBox">
-                        <h3 class="titleBox"> CALIDAD, MEJOR CONFIANZA </h3>
-                        <p class="textBox">
-                            Solicite una visita o llámenos para contarnos sobre el servicio técnico que necesita y lo asesoraremos con todo gusto.
-                        </p>    
+                        <h3 class="titleBox" style="font-size:26px" > SINÓNIMO DE CONFIANZA </h3>
+                        <p class="textBox" style="font-size: 22px;">
+                            Solicitá una visita o llamanos <br> para comentarnos qué <br> necesitás. ¡Estaremos <br> encantados de asesorarte!                        </p>    
                         <hr class="hrDesktop">
                      </article>
                      <article  class="boxInfo">
                         <img class="imgBox" src="./public/images/repuestos.png" alt="repuesto">
                         <hr class="hrBox">
-                        <h3 class="titleBox"> REPUESTOS </h3>
-                        <p class="textBox">
-                            Contamos con las herramientas y equipamiento suficiente para poder llevar adelante la reparación.
+                        <h3 class="titleBox" style="font-size:26px"> REPUESTOS </h3>
+                        <p class="textBox" style="font-size: 22px;">
+                            Contamos con las <br> herramientas y el <br> equipamiento necesario para <br> responder a tus solicitudes.
                         </p>    
                         <hr class="hrDesktop">
                      </article>
                  </div>
                  <div class="estamosText">
                     
-                 <p class="estamos"><span class="textoNegrita">"Estamos a su lado </span> <span class="textoLighter"> para resolver los inconvenientes que electromésticos y equipamientos del hogar puedan presentar y nos alegra llevarles soluciones a estos problemas cotidianos"</span>
+                 <p class="estamos" style="font-size: 26px;">Buscamos resolver <br> todos aquellos <br> inconvenientes <br>
+                    que pudieran <br> presentarse en los <br> electrodomésticos <br>
+                    y equipamientos <br>
+                    de tu hogar. <br>
+                    Nos alegra llevar <br> soluciones a tus <br> problemas cotidianos.<br>
+                    <strong class="strong-desktop">¡Gracias por elegirnos!</strong></span>
                      </p>
                  <img class="imgMobile" src="./public/images/Frame 8.png" alt="" width="100%">
                  
@@ -187,10 +203,10 @@
                 </div>
                 
                 <div class="imagenLogo">
-                    <div class="stickyLogo">
+                    <div class="stickyLogo" style="display: none;">
                         <img src="./public/images/Group7031LogoMobile.png" alt="">
                     </div>
-                 <img class="imgDesktop" src="./public/images/bordeimg.png" alt=""> 
+                 <img class="imgDesktop" src="./public/images/aside-img.png" alt=""> 
             </div>
             </div>
 
@@ -208,7 +224,7 @@
                     <hr class="mobileHr" style="width: 22px; border:1px solid black">
                     <small class="tituloDeMarcas">SMEG</small>
                     <figure>
-                        <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
+                        <img class="importantBrandsImg" src="./public/images/fotosNuevas/smeg.jpg" alt="">
                     </figure>
                     <div class="desktopAcomodo">
                         <hr class="desktopHr" style="width: 22px; border:1px solid black">
@@ -221,7 +237,7 @@
                     <hr class="mobileHr" style="width: 22px; border:1px solid black">
                     <small class="tituloDeMarcas">ARISTON</small>
                     <figure>
-                        <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
+                        <img class="importantBrandsImg" src="./public/images/fotosNuevas/ariohtfyo m.jpg" alt="">
                     </figure>
                     <div class="desktopAcomodo">
                         <hr class="desktopHr" style="width: 22px; border:1px solid black">
@@ -245,7 +261,7 @@
                     <hr class="mobileHr" style="width: 22px; border:1px solid black">
                     <small class="tituloDeMarcas">CATA</small>
                     <figure>
-                        <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
+                        <img class="importantBrandsImg" src="./public/images/fotosNuevas/cata.jpg" alt="">
                     </figure>
                     <div class="desktopAcomodo"> 
                         <hr class="desktopHr" style="width: 22px; border:1px solid black">
@@ -257,7 +273,7 @@
                     <hr class="mobileHr" style="width: 22px; border:1px solid black">
                     <small class="tituloDeMarcas">GLEM</small>
                     <figure>
-                        <img class="importantBrandsImg" src="./public/images/address-img.png" alt="">
+                        <img class="importantBrandsImg" src="./public/images/fotosNuevas/glem.jpg" alt="">
                         
                     </figure>
                     <div class="desktopAcomodo"> 
@@ -266,28 +282,64 @@
                     <p class="textoMarca">Detalles con estilo, elegancia y funcionalidad; las características de la calidad y el diseño italiano, con rendimiento elevado.</p>
                 </div> 
                 </article>
+            </div>
+                    
+                
             </section> 
             
             <section class="otherBrands">
-                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
-                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
-                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
-                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
-                <div class="flex Servicio"><span>SERVICIO</span><hr></div>
-                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
-                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
-                <div class="flex Oficial"><hr><span>OFICIAL</span></div>
-                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
-                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
+                <img class="otherBrandsImgs" src="./public/images/fotosNuevas/arasda.jpg" alt="">
+                <img class="otherBrandsImgs" src="./public/images/fotosNuevas/balay.jpg" alt="">
+                <img class="otherBrandsImgs" src="./public/images/fotosNuevas/bompani.jpg" alt="">
+                <img class="otherBrandsImgs" src="./public/images/fotosNuevas/candy.jpg" alt="">
+                <div class="flex Servicio"><span>SERVICIO OFICIAL</span></div>
+                <img class="otherBrandsImgs" src="./public/images/fotosNuevas/framke.jpg" alt="">
+                <img class="otherBrandsImgs" src="./public/images/fotosNuevas/LEB.jpg" alt="">
+                <img class="otherBrandsImgs" src="./public/images/fotosNuevas/SAM.jpg" alt="">
+                <img class="otherBrandsImgs" src="./public/images/fotosNuevas/whirlpool.jpg" alt="">
                 <div class="flex EnTuHogar"><span>EN TÚ HOGAR</span></div>
-                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
-                <img class="otherBrandsImgs" src="./public/images/address-img.png" alt="">
-            
-               
+                
+
+
             </div>
             </section>
         </section>
-   
+        <div class="background-services">
+            <div class="desktop-service">
+               <div class="column one">
+                   <div class="marque">
+                       <marquee class="marquesina"> 
+                           <div class="marque-hr">
+                               <hr>
+                               <span> SERVICIO TECNICO OFICIAL</span>
+                            </div>                  
+                        </marquee>
+                    </div>
+               </div>
+               <div class="column img"><img src="./public/images/fotosNuevas/arasda.jpg"></div>
+               <div class="column img"><img src="./public/images/fotosNuevas/ariohtfyo m.jpg"></div>
+               <div class="column img"><img src="./public/images/fotosNuevas/balay.jpg"></div>
+               <div class="row two"> <img src="./public/prueba1-removebg-preview.png"></div>
+               <div class="column img"><img src="./public/images/fotosNuevas/LEB.jpg"></div>
+               <div class="column img"><img src="./public/images/fotosNuevas/bompani.jpg"></div>
+               <div class="column img"><img src="./public/images/fotosNuevas/candy.jpg"></div>
+               <div class="column img"><img src="./public/images/fotosNuevas/cata.jpg"></div>
+               <div class="column img"><img src="./public/images/fotosNuevas/framke.jpg"></div>
+               
+               <div class="column img"><img src="./public/images/fotosNuevas/glem.jpg"></div>    
+               <div class="column img"><img src="./public/images/fotosNuevas/bobbani.jpg"></div>  
+               <div class="colum marquee">
+                <div class="marque">
+                    <marquee class="marquesina"> 
+                        <div class="marque-hr">                    
+                            <span> EN TU HOGAR</span>
+                            <hr>
+                         </div>                  
+                     </marquee>
+                 </div>
+               </div> 
+            </div>
+            </div>
     <div >
         <img id="contacto"  src="" alt="">
         <div >
@@ -318,24 +370,24 @@
         <aside class="asideContact">
             <div class="contactLogo"><img src="./public/images/blackIcon.png" alt=""></div>
             <h2 class="desktopPrice">PEDÍ TU PRESUPUESTO</h2>
-            <p>Envianos tu consulta, detallando: la marca, qué incoveniente tiene y ubicación,</p>
-            <p> o comunicate al 112704-3091.</p>
+            <p style="font-size: 22px;">Envianos tu consulta, detallando: la <br> marca, qué incoveniente tiene <br> y ubicación,
+             o comunicate al 11-2704-3091.</p>
             <hr class="hrContact">
-            <p style="font-weight: bold;">La revisión del equipo tiene un costo de $800 que incluye la visita.</p>
+            <p style="font-weight: bold; font-size: 22px;">La revisión del equipo tiene <br> un costo de $800 <br> que incluye la visita.</p>
             <hr class="hrContact">
-            <p>En el caso que acepten el presupuesto y se realice ahí mismo el trabajo</p>
-            <p>no se cobra visita, te estamos esperando.</p>
+            <p style="font-size: 22px;"> En el caso que acepten el presupuesto <br> y se realize ahí mismo el trabajo
+            no se <br> cobra visita, te estamos esperando.</p>
             <img src="/public/images/Frame 4.png" alt="" srcset="" id="contactSignature" >
             <h2 class="sideServitronic">SERVITRONIC</h2>
         </aside>
     </section>
     <section class="address">
         <div style="background-color: #C4C4C4;" class="DesktopContactBg">
-            <img src="./public/images/direccionFinal.png" width="100%" alt="">
+            <img src="./public/images/direccion-img.png" width="100%" alt="">
         </div>
         <div class="address-section">
             <figure >
-                <img  class="address-img" src="./public/images/address-img.png" alt="" srcset="">
+                <img  class="address-img" src="./public/images/img-direccion.png" alt="" srcset="">
             </figure>
             <div class="adress-content">
             <div class="address-text">
@@ -351,28 +403,39 @@
                 <div class="address">
                     <p>
                         <i class="fas fa-map-marker-alt"></i>
-                        Ramon Falcon 4858 <br>
+                        Drysdale 5624 <br>
                         Carapachay, Vicente Lopez
                     </p>
                 </div>
             </div>
                 <div  class="btn-adress">
-                    <a id='btn-uber' class='btnFormSubmit' target='_blank' href="https://www.google.com.ar/maps/dir//Cnel.+Ramón+L.+Falcón+4858,+C1407GTF+CABA/@-34.638291,-58.4978158,17z/data=!4m17!1m7!3m6!1s0x95bcc9baf279886b:0xe3c331b74e04c0a3!2sCnel.+Ramón+L.+Falcón+4858,+C1407GTF+CABA!3b1!8m2!3d-34.6382954!4d-58.4956218!4m8!1m0!1m5!1m1!1s0x95bcc9baf279886b:0xe3c331b74e04c0a3!2m2!1d-58.4956218!2d-34.6382954!3e3">INICIAR VIAJE</a>
+                    <a id='btn-uber' class='btnFormSubmit' target='_blank' href="https://www.google.com/maps/dir//Drysdale+5624,+B1606AYF+Carapachay,+Provincia+de+Buenos+Aires/@-34.5274641,-58.5371093,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x95bcb0b9250911f7:0xab56bfbb9c20e7cd!2m2!1d-58.5349206!2d-34.5274685!3e0">INICIAR VIAJE</a>
                 </div>
                 
             </div>
             </div>
             <div class="map-google">
-            <iframe id='map-desk'
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6495514783037!2d-58.49781048429623!3d-34.638295380450586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9baf279886b%3A0xe3c331b74e04c0a3!2sCnel.%20Ram%C3%B3n%20L.%20Falc%C3%B3n%204858%2C%20C1407GTF%20CABA!5e0!3m2!1ses-419!2sar!4v1635345498974!5m2!1ses-419!2sar"
-            width="100%" height="200" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4648.571101226922!2d-58.53738481444086!3d-34.527312119626394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0b9250911f7%3A0xab56bfbb9c20e7cd!2sDrysdale%205624%2C%20B1606AYF%20Carapachay%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1638221337820!5m2!1ses!2sar"
+            width="100%" height="450" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
             </div>
         </div>
     </section>
 </main>
 <footer>
-    <a href="#top"><img src="./public/images/Group 6991whiteServitronic.svg" alt="Servitronic footer"></a>
-    <span>Llámenos hoy <a href="https://api.whatsapp.com/send?phone=541157412030">11-3526-4499</a></span>
+    <div class="footer-divs" style="padding-top: 20px;">
+    <a href="#top" id="logo-footer"><img src="./public/images/Group 6991whiteServitronic.svg" alt="Servitronic footer"></a>
+    
+    <span id="llamenos">Llámenos hoy <a href="tel:+5491127043091">11-2704-3091</a></span>
+</div>
+<hr id="hr-footer" style="width: 65%;">
+<div class="footer-divs" id="div-bot" style="padding-bottom: 20px; font-weight: lighter;">
+    <p>© 2021 Viajero Estudio</p>
+    <div style="display: flex;">
+        <p>PRIVACY POLICY</p><p style="margin-left: 15px;">TERMS OF SERVICE</p>
+        
+    </div>
+    
+</div>
 </footer>
 <script src="./public/javascripts/llamenos.js"></script>
 </body>

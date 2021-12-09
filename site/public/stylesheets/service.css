@@ -59,6 +59,10 @@ hr.hrBox{
     font-size: 28px;
 }
 
+.strong-desktop{
+    display: none;
+}
+
 @media screen and (min-width: 768px){
     section.service{
         background-color: var(--grey);
@@ -161,7 +165,7 @@ hr.hrBox{
     margin: 0;
     padding: 18px;
 }
-marquee{
+marquee{ /* QUE PASOOO MACAAA??? */
 color: var(--orange);
 font-size: 1.5rem;
 height: 10%;
@@ -178,10 +182,13 @@ span.textoNegrita{
 .serviciosImg{
 display: none;
 }
+.strong-desktop{
+    display: block;
+}
 @media screen and (min-width: 1020px){
     .estamos{
-        font-size: 1.9rem;
-        line-height: 3.5rem;
+        font-size: 2.1rem;
+        line-height: 3.8rem;
         padding: 12px;
         z-index: 1;
     }

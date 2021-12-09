@@ -1,3 +1,7 @@
+.boton-wsp{
+    display:none;
+}
+
 .welcome {
     height: 100%;
     background-image: url('../images/Banner.jpg');
@@ -72,6 +76,28 @@
 
 
 @media screen and (min-width: 768px){
+    .boton-wsp{
+        height: 0px;
+        display:block;
+    }
+    
+    .logoWsp {
+        display: block;
+    position: fixed;
+    right: -10px;
+    bottom: 140px;
+    width: 100px;
+    height: 50px;
+    z-index: 99999;
+    text-align: center;
+    color: var(--colorSecundaryWhite);
+    font-weight: bold;
+    
+    }
+
+    .imgWsp {
+        width: 60%;
+    }
     .welcome .textos {
         padding-top: 20%;
     }

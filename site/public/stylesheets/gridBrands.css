@@ -31,7 +31,10 @@
 .flex{
     display: flex;
     color: var(--orange);
-    font-size: 33px;
+    font-size: 45px;
+}
+.flex span{
+    text-align: center;
 }
 /* .importantBrands article small{
     font-size: 24px;} */
@@ -59,9 +62,8 @@ width: 150px;
 .otherBrands{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr 0.8fr 1fr 0.8fr 1fr 0.8fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.5fr 0.5fr 0.5fr ;
     grid-column-gap: 5px;
-    grid-row-gap: 5px;
     width: 90vw;
     margin: 0 auto;
     align-items: center;
@@ -77,18 +79,14 @@ width: 150px;
     width: 100%;
 }
 .Servicio{
+    justify-content: center;
     align-self: center;
-    grid-row-start: 3;
-    grid-column-start: span 2;
-}
-.Oficial{
-    align-self: center;
-    grid-row-start: 5;
+    grid-row-start: 1;
     grid-column-start: span 2;
 }
 .EnTuHogar{
     align-self: center;
-    grid-row-start: 7;
+    grid-row-start: 2;
     grid-column-start: span 2;
     margin: 0 auto;
 }
@@ -96,6 +94,7 @@ width: 150px;
     font-weight: bolder;
     margin: 3px 0 3px;
 }
+
 
 @media (min-width: 768px){
     .brandsTitleDesktop{
@@ -115,10 +114,10 @@ width: 150px;
         margin-left: -15%;
     } */
     .secHache1{
-        margin-left: 1%;
+        margin-left: 52%;
     }
     .secHache2{
-        margin-left: -55%;
+        margin-left: 1%;
     }
     .hachesQ{
         display:flex;
@@ -156,8 +155,11 @@ width: 150px;
         justify-content: space-around;
     }
     .importantBrandsImg{
-        width: 266px;
-        height: 118px;
+        width: 200px;
+        height: 150px;
+        margin-top: 22px;
+        
+       
     }
     .textoMarca{
         font-size: 23px;
@@ -175,6 +177,17 @@ width: 150px;
         margin-bottom: 55px;
     }
 
+    .gridBrands figure{
+        padding-top:35px ;
+        height: 280px;
+    }
+    .importantBrands{
+        margin-bottom: -60px;
+    }
+    .otherBrands{
+        display: none;
+        }
+}
 
 @media screen and (min-width: 600px){
     .flex{
@@ -182,9 +195,4 @@ width: 150px;
         font-size: 45px;
     }
 
-}
-@media screen and (min-width: 900px){
-    .otherBrands{
-        display: none;
-        }  
 }
