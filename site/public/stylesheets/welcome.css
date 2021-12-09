@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .boton-wsp{
     display:none;
 }
@@ -153,3 +154,161 @@
     }
    
 } */
+=======
+.boton-wsp{
+    display:none;
+}
+
+.welcome {
+    height: 100%;
+    background-image: url('../images/Banner.jpg');
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.welcome .textos {
+    padding-top: 60%;
+    z-index: 1;
+    margin-bottom: 2px;
+}
+.welcome .textos img{
+    width: 100%;
+}
+.welcome .h1s{
+    margin-top: 120px;
+}
+
+.welcome .btn-presupuesto a{
+    padding: 15px 30px;
+    background-color:var(--orange);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-presupuesto{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    margin: 89% 17%;
+}
+
+.outline-top {
+    opacity: 30%;
+    margin-bottom: 20px;
+}
+
+.outline-bottom {
+    opacity: 30%;
+}
+
+.brands-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 0;
+    background-color: black;
+    text-align: center;
+    padding: 3px 0;
+}
+
+@media screen and (min-width: 411px){
+    .btn-presupuesto{
+        margin: 88% 20%;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .btn-presupuesto{
+        margin: 88% 25%;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .boton-wsp{
+        height: 0px;
+        display:block;
+    }
+    
+    .logoWsp {
+        display: block;
+    position: fixed;
+    right: -10px;
+    bottom: 140px;
+    width: 100px;
+    height: 50px;
+    z-index: 99999;
+    text-align: center;
+    color: var(--colorSecundaryWhite);
+    font-weight: bold;
+    
+    }
+
+    .imgWsp {
+        width: 60%;
+    }
+    .welcome .textos {
+        padding-top: 20%;
+    }
+    .welcome .textos img{
+        width: 100%;
+    }
+    .welcome .h1b :nth-child(2){
+        display: none;
+    }
+    .welcome .btn-presupuesto a{
+        border: 1px solid white;
+        padding: 17px 40px;
+        font-size: 15px;
+        border-radius: 10px;
+        color: white;
+    
+    }
+    .brands-title{
+        font-size: 15px;
+    }
+    .btn-presupuesto{
+        margin: 45% 0% 0% 60%;
+    }
+   
+   
+}
+
+/* @media screen and (min-width: 1280px){
+    .welcome .btn-presupuesto a{
+        border: 1px solid white;
+        padding: 25px 80px;
+        font-size: 18px;
+        border-radius: 10px;
+        color: white;
+    
+    }
+    .btn-presupuesto{
+        margin: 44% 0% 0% 63%;
+    }
+   
+}
+
+@media screen and (min-width: 1920px){
+    .welcome .btn-presupuesto a{
+        border: 1px solid white;
+        padding: 30px 90px;
+        font-size: 25px;
+        border-radius: 10px;
+        color: white;
+    
+    }
+    .btn-presupuesto{
+        margin: 43% 0% 0% 68%;
+    }
+   
+} */
+>>>>>>> daea3864083e5f6242344cd6b6bb8bbf3044594a

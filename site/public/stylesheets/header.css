@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* header{
     border-bottom: 10px solid var(--black);
    } */
@@ -165,3 +166,175 @@ text-align: center;
     
 }
 
+=======
+/* header{
+    border-bottom: 10px solid var(--black);
+   } */
+   .headerHr{
+    background-color: black;
+    height: 12px;
+    border: none;
+}
+   /* navbar negra que dice llamenos y tiene numero de telefono*/
+.llamenos{
+    background-color: var(--black);
+    color: white;
+    display: flex;
+    height: 5rem;
+    font-size: 0.8rem ;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    
+    z-index: 3;
+    position: fixed;
+    width: 100vw;
+    margin-top: -5px;
+}
+.llamenos span{
+
+    background-color: var(--black);
+}
+/*quito estilo de ancla, pongo blanco*/
+.llamenos a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+/*sector que tiene solo logo en mobile, lo centro*/
+.navLogo{
+  
+padding-top: 80px;
+align-items: center;
+text-align: center;
+}
+
+.navLogo img{
+    width: 60%;
+    padding: 0.7rem;
+   
+}
+/*uls, no disponibles en mobile*/
+.navHeader{
+    display: none;
+}
+/*Hamburger de mobile*/
+.menuMobile{
+    width: 221px;
+    height: 396px;
+    background-color: var(--black);
+    position: fixed;
+    color: white;
+    right: 10px;
+    z-index: 2;
+    transition: all 0.5s;
+}
+.hidden{
+    top: -500px;
+}
+.deploy{
+    top:70px;
+}
+.menuMobile nav{
+    margin: 10%;
+}
+.menuMobile nav ul li a{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 20px;
+    font-weight: 999;
+    color: white;
+}
+.menuMobile nav ul li {
+    margin-bottom: 15px;
+}
+.menuMobile img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: -1;
+}
+.mobileHr{
+    margin: 0 auto;
+    color: white;
+    width: 60%;
+}
+.ulHeader li{
+    display: none;
+}
+.ulHeader li a{
+    color: var(--black);
+    font-size: 20px;
+}
+
+
+/*Medias querys de tablet*/
+
+@media screen and (min-width: 768px){
+   /* el display none de la burger esta en el burgerStyle.css como query*/
+   /* header{
+       border-bottom: 4px solid var(--black);
+   } */
+   .llamenos{
+    width: 100vw;
+       height: 3rem;
+   }
+    .navLogo{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-top: 40px;
+        margin-top: 5px;
+        justify-content: space-around;
+        display: flex;
+    }
+    .navLogo img{
+        width: 25%;
+        
+       
+    }
+    .ulHeader {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     align-items: baseline;
+    }
+    /* .ulHeader ul{
+
+   
+    } */
+    .ulHeader li{
+        padding: 13px 15px 15px 15px;
+        overflow: hidden;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        list-style: none;
+        font-size: 0.89rem;
+        width: 100%;
+        border-bottom: 0px transparent solid;
+        cursor: pointer;
+    }
+  
+    .ulHeader li:hover{
+        border-bottom: 5px transparent solid;
+        border-top: 5px black solid;
+        background-color: var(--orange);
+        box-shadow: 0px  20px var(--orange);
+        transition: all 0.2s;
+    }
+    .menuMobile{
+        display: none;
+    }
+    .headerHr{
+        position: relative;
+        z-index: 2;
+        height: 5px;
+    }
+    
+}
+@media screen and (min-width: 900px){
+    .ulHeader li a{
+        font-size: 24px;
+    }
+ }
+
+>>>>>>> daea3864083e5f6242344cd6b6bb8bbf3044594a
