@@ -57,7 +57,7 @@
 /* @media screen and (min-width: 1440px){
     .aboutUs h5{
         font-size: 24px;
-        transform: translateY(-95px);
+        : translateY(-95px);
         margin-left: 160px;
         
     }
