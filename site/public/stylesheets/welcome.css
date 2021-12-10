@@ -61,6 +61,33 @@
     text-align: center;
     padding: 3px 0;
 }
+.boton-wsp{
+    height: 0px;
+    display:block;
+}
+
+.logoWsp {
+    display: block;
+position: fixed;
+right: -40px;
+bottom: 140px;
+width: 100px;
+height: 50px;
+z-index: 99999;
+text-align: center;
+color: var(--colorSecundaryWhite);
+font-weight: bold;
+
+}
+
+.imgWsp {
+    width: 60%;
+}
+
+.tamanio-wsp{
+    height: 40px;
+    width: 40px; 
+}
 
 @media screen and (min-width: 411px){
     .btn-presupuesto{
@@ -97,6 +124,10 @@
 
     .imgWsp {
         width: 60%;
+    }
+    .tamanio-wsp{
+        height: 60px;
+        width: 60px; 
     }
     .welcome .textos {
         padding-top: 20%;
