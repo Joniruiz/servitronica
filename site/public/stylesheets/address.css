@@ -82,9 +82,9 @@ marquee{display:none}
     .address-text{
         height:75px
     }
-    .address-container-desk{
+  /*   .address-container-desk{
         transform: translate(5%, 26%)
-    }
+    } */
 }
 
 
