@@ -153,6 +153,9 @@
         background-color: var(--black);
         height: 3px;
     }
+    .inputName{
+        margin-top: 30px;
+    }
 }
 @media (min-width: 1440px){
     .sideServitronic{

@@ -4,7 +4,17 @@
 }
 @media screen and (min-width: 768px){
 .background-services{
-    background-image: url(/site/public/images/services-bg_edited.jpg);
+    background-image: url(/site/public/images/fotosNuevas/ornalla2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:50px 0 50px;
+    display:flex;
+    align-items:center;
+    background-position:bottom;
+
+}
+.background-top{
+    background-image: url(/site/public/images/fotosNuevas/ornalla.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     padding:50px 0 50px;
@@ -23,6 +33,7 @@
     width:100%;
     background-color: white;
     } 
+    
 /* .desktop-service :last-child{
     grid-row-gap:15px
 } */
