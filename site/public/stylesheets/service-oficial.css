@@ -2,9 +2,12 @@
 .background-services{
     display: none;
 }
+.desktop-service{
+    display: none;
+}
 @media screen and (min-width: 768px){
 .background-services{
-    background-image: url(/public/images/fotosNuevas/ornalla2.jpg);
+    background-image: url(../images/fotosNuevas/ornalla2.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     padding:50px 0 50px;
@@ -14,7 +17,7 @@
 
 }
 .background-top{
-    background-image: url(/public/images/fotosNuevas/ornalla.jpg);
+    background-image: url(../images/fotosNuevas/ornalla.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     padding:50px 0 50px;
